@@ -16,15 +16,18 @@ body{
 
 }
 nav{
+    background: #8BC34A;
     padding: 10px 0;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1;
+    font-size: medium;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight:400;
     font-style: normal;
+    
 }
 
 .nav-link{
@@ -39,4 +42,51 @@ nav{
 }
 .nav-link img{
     height: 80px;
+    border-radius: 50%;
+    width: 80px;
+    
+}
+
+.nav-link li{
+    margin: 0 15px;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+
+.nav-link li a:hover{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+
+}
+
+.hero{
+    margin-top: 190px;
+    margin-left: 400px;
+    position: relative;
+    background: url(./bgimg.webp)no-repeat center center/cover;
+    height: 60vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+
 }

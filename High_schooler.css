@@ -72,22 +72,68 @@ nav{
     font-style: normal;
 
 }
+hero {
 
-.hero{
-    margin-top: 190px;
-    margin-left: 400px;
-    position: relative;
-    background: url(./bgimg.webp)no-repeat center center/cover;
-    height: 60vh;
-    width: 100vh;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  /* Description */
+  .description {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .description .prompt {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  /* Buttons */
+  .level-buttons {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-    right: 60px;
-
-}
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .level-buttons button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: white;
+    border: 2px solid #1976d2;
+    color: #1976d2;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .level-buttons button:hover,
+  .level-buttons .selected {
+    background: #1976d2;
+    color: white;
+  }
+  
+  
+  .courses {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .courses h2 {
+    font-size: 2em;
+    color: #37474f;
+    margin-bottom: 20px;
+  }

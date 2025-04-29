@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+body{
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    overflow-x: hidden;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+
+}
+nav{
+    background: #8BC34A;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: medium;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+.nav-link img{
+    height: 80px;
+    border-radius: 50%;
+    width: 80px;
+    
+}
+
+.nav-link li{
+    margin: 0 15px;
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+
+.nav-link li a:hover{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+
+}
+
+.about-hero {
+    background: url('https://images.unsplash.com/photo-1580894732444-997f66851a22') no-repeat center center/cover;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background-color: rgba(39, 60, 117, 0.7);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 60px 20px;
+  }
+  
+  .overlay h3 {
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .overlay h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .scroll-icon {
+    font-size: 30px;
+    color: white;
+    animation: bounce 1.5s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(8px); }
+  }
+  
+  .about-info {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .about-info h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #273c75;
+  }
+  
+  .about-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+  }
+  .how-it-works {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 32px;
+    color: #273c75;
+    margin-bottom: 40px;
+  }
+  
+  .steps .step {
+    margin-bottom: 30px;
+  }
+  
+  .steps h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2f3640;
+    margin-bottom: 10px;
+  }
+  
+  .steps p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    color: #e84118;
+    animation: bounce 1.2s infinite;
+  }

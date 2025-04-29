@@ -73,21 +73,23 @@ nav{
 
 }
 
-.hero{
-    margin-top: 190px;
-    margin-left: 400px;
+.form-section{
+    
     position: relative;
-    background: url(./bgimg.webp)no-repeat center center/cover;
-    height: 60vh;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-    right: 60px;
+    text-align: center;
+    padding: 50px 20px;
+    border: 10px;
+}
 
+.form-container{
+    position: relative;
+    border: 5px solid black;
+    max-width: 600px;
+    margin: auto;
+    z-index: 10;
+    top: 30vh;
+}
+
+.form-container input{
+    width: 35vh;
 }

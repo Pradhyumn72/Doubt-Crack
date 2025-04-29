@@ -72,22 +72,3 @@ nav{
     font-style: normal;
 
 }
-
-.hero{
-    margin-top: 190px;
-    margin-left: 400px;
-    position: relative;
-    background: url(./bgimg.webp)no-repeat center center/cover;
-    height: 60vh;
-    width: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-    right: 60px;
-
-}

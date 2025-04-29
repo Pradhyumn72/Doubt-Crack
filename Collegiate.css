@@ -137,3 +137,74 @@ nav{
     color: #37474f;
     margin-bottom: 20px;
   }
+
+  .teachers-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .teachers-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #2f3640;
+  }
+  
+  .teacher-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .teacher-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .teacher-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .teacher-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .teacher-card h3 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #273c75;
+  }
+  
+  .teacher-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #e84118;
+  }
+  
+  .book-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #273c75;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .book-btn:hover {
+    background-color: #192a56;
+  }

@@ -13,11 +13,10 @@
                 <li><img src="./Logo.png" alt="Logo" class="Logo"></li>
 
                 <li><a href="./index.html">Home</a></li>
-                <li style="font-weight: 300px; font-size: x-large;" >I'm a</li>
-                <li><a href="./High_schooler.html">High schooler</a></li>
-                <li><a href="./Collegiate.html">Collegiate</a></li>
-                <li><a href="./Tutor.html">Tutor</a></li>
-                <li><a href="./Blog.html">Blog</a></li>
+                <li><a href="./High_schooler.html">For High schooler</a></li>
+                <li><a href="./Collegiate.html">For Collegiate</a></li>
+                <li><a href="./Tutor.html">Meet the Instructors</a></li>
+                <li><a href="./Blog.html">Blogs</a></li>
                 <li><a href="./About.html">About</a></li>
                 <li><a href="./Contact_us.html">Contact us</a></li>
                <li>
@@ -40,11 +39,16 @@
     <form action="" class="form-container">
         
            <p>Enter your details</p><br>
+           <p id="errorname"></p>
         <input type="text" name="Full_name" placeholder="Enter your name" id="name"> <br><br>
+        <p id="erroremail"></p>
         <input type="email" name="email" placeholder="Enter your email" id="email"><br><br>
-        <input type="number" name="number" placeholder="Enter your mobile number" id="num"><br><br>
-        <input type="password" name="password" id="pass" placeholder="Enter your password"><br><br>
-        <input type="password" name="confirm-password" id="cpass" placeholder="Enter your password again"><br><br>
+        <p id="errornumber"></p>
+        <input type="number" name="number" placeholder="Enter your mobile number" id="number"><br><br>
+        <p id="errorpass"></p>
+        <input type="password" name="password"  placeholder="Enter your password" id="password"><br><br>
+        <p id="errorcpass"></p>
+        <input type="password" name="confirm-password"  placeholder="Enter your password again" id="cpassword"><br><br>
     
 <button type="submit" onclick="signup()" style="font-size: medium;">Begin Learning</button>
 </div>

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./High_schooler.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="High_schoolerlib.css">
     <title>Document</title>
 </head>
 <body>
@@ -30,14 +32,46 @@
         </ul>
         </nav>
         </header>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
 
         <section class="hero">
             <div class="hero-content">
-              <h1>Get better grades with online tutoring</h1>
+              <!-- <h1>Get better grades with online tutoring</h1> -->
             </div>
           </section>
         
-          <section class="description">
+          <!-- <section class="description">
             <p>
               No matter your level of study, you’ll find an online tutor for you. 
                high school students can connect with the best licensed teachers from across the country and around the world. 
@@ -51,7 +85,7 @@
               <button><a href="./Collegiate.html" style="text-decoration: none;">College</a></button>
               
             </div>
-          </section>
+          </section> -->
         
           <section class="courses">
             <h2>Tackle your school doubts</h2>
@@ -61,11 +95,11 @@
             </p>
           </section>
 
-<section class="teachers-section">
+<!-- <section class="teachers-section">
             <h2>Meet Our Expert Tutors</h2>
             <div class="teacher-cards">
               <div class="teacher-card">
-                <img src="https://via.placeholder.com/150" alt="Teacher 1">
+                <img src="" alt="Teacher 1">
                 <h3>Mr. Vikas Sarkar</h3>
                 <p>Data Structures & Algorithms with C++</p>
                 <p class="price">₹800/hour</p>
@@ -73,7 +107,7 @@
               </div>
           
               <div class="teacher-card">
-                <img src="https://via.placeholder.com/150" alt="Teacher 2">
+                <img src="" alt="Teacher 2">
                 <h3>Mr. Vikas Yadav</h3>
                 <p>Data Structures & Algorithms with Java</p>
                 <p class="price">₹600/hour</p>
@@ -81,7 +115,7 @@
               </div>
           
               <div class="teacher-card">
-                <img src="https://via.placeholder.com/150" alt="Teacher 3">
+                <img src="" alt="Teacher 3">
                 <h3>Ms. Siddharth Israni</h3>
                 <p>Web Development</p>
                 <p class="price">₹700/hour</p>
@@ -89,7 +123,7 @@
               </div>
 
               <div class="teacher-card">
-                <img src="https://via.placeholder.com/150" alt="Teacher 4">
+                <img src="" alt="Teacher 4">
                 <h3>Mr. Neeraj Kumar</h3>
                 <p>Python and Django</p>
                 <p class="price">₹600/hour</p>
@@ -97,7 +131,7 @@
 
             </div>
             <div class="teacher-card">
-                <img src="https://via.placeholder.com/150" alt="Teacher 5">
+                <img src="" alt="Teacher 5">
                 <h3>Mr. Mahesh</h3>
                 <p>Python</p>
                 <p class="price">₹600/hour</p>
@@ -105,7 +139,7 @@
 
             </div>
             <div class="teacher-card">
-                <img src="https://via.placeholder.com/150" alt="Teacher 6">
+                <img src="" alt="Teacher 6">
                 <h3>Mr. Rajesh</h3>
                 <p>React Js</p>
                 <p class="price">₹600/hour</p>
@@ -113,6 +147,30 @@
 
             </div>
             </div>
-          </section>
+          </section> -->
+
 </body>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
 </html>

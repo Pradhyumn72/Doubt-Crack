@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DoubtCrack | Register</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="indexx.css">
+ 
+</head>
+<body>
+
+  <!-- Swiper Background Slideshow -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./sld1.jpg" alt="Slide 1"></div>
+      <div class="swiper-slide"><img src="./sld2.jpg" alt="Slide 2"></div>
+      <div class="swiper-slide"><img src="./sld3.jpg" alt="Slide 3"></div>
+      <div class="swiper-slide"><img src="./sld4.jpg" alt="Slide 4"></div>
+      <div class="swiper-slide"><img src="./sld5.jpg" alt="Slide 5"></div>
+      <div class="swiper-slide"><img src="./sld6.jpg" alt="Slide 6"></div>
+      <div class="swiper-slide"><img src="./sld7.jpg" alt="Slide 7"></div>
+    
+    </div>
+  </div>
+
+  <!-- Form -->
+  <div class="form-container">
+    <div class="form-box">
+      <h2>Sign Up </h2>
+      <p>Enter your details</p><br>
+      <p id="errorname"></p>
+   <input type="text" name="Full_name" placeholder="Enter your name" id="name"> <br><br>
+   <p id="erroremail"></p>
+   <input type="email" name="email" placeholder="Enter your email" id="email"><br><br>
+   <p id="errornumber"></p>
+   <input type="number" name="number" placeholder="Enter your mobile number" id="number"><br><br>
+   <p id="errorpass"></p>
+   <input type="password" name="password"  placeholder="Enter your password" id="password"><br><br>
+   <p id="errorcpass"></p>
+   <input type="password" name="confirm-password"  placeholder="Enter your password again" id="cpassword"><br><br>
+      <button type="submit">Begin Learning</button>
+      <p>Already have an account? <a href="./Login.html">Login</a></p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      effect: 'fade',
+    });
+  </script>
+  <script src="./Sign_up.js"></script>
+  <script src="./Login.js"></script>
+  
+</body>
+</html>

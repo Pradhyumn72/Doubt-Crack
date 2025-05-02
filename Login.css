@@ -1,95 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
-    font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
-}
-
-body{
     margin: 0;
-    font-family: "Josefin Sans", sans-serif;
-    overflow-x: hidden;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-
-}
-nav{
-    background: #8BC34A;
-    padding: 10px 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .swiper {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .form-container {
+    position: relative;
     z-index: 1;
-    font-size: medium;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-    
-}
-
-.nav-link{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-}
-.nav-link img{
-    height: 80px;
-    border-radius: 50%;
-    width: 80px;
+    background: rgba(0, 0, 0, 0.5); 
+   
+  }
+  
+  .form-box {
+      background: transparent; 
+      padding: 40px;
+      border-radius: 10px;
+      width: 350px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.4); 
+      color: white;
+    }
     
-}
-
-.nav-link li{
-    margin: 0 15px;
-    font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
-}
-.nav-link a{
+    
+  .form-box h2 {
+    margin-bottom: 20px;
+    color: #8BC34A;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-box button {
+    width: 100%;
+    padding: 12px;
+    background:#8BC34A;
+    border: none;
     color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-box p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .form-box p a {
+    color:#8BC34A;
     text-decoration: none;
-    transition: 0.3s;
-    font-weight: bold;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-}
-
-.nav-link li a:hover{
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-
-}
-
-.form-section{
+  }
+  
+  .btn{
+    background:#8BC34A;
+    border: 0.5px solid #8BC34A;;
     
-    position: relative;
-    text-align: center;
-    padding: 50px 20px;
-    border: 10px;
-}
-
-.form-container{
-    position: relative;
-    border: 5px solid black;
-    max-width: 600px;
-    margin: auto;
-    z-index: 10;
-    top: 30vh;
-}
-
-.form-container input{
-    width: 35vh;
-}
+  }

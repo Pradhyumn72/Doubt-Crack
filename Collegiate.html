@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Collegiate.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <title>High schooler</title>
 </head>
 <body>
     <header>  
         <nav>
             <ul class="nav-link">
+              
                 <li><img src="./Logo.png" alt="Logo" class="Logo"></li>
 
                 <li><a href="./index.html">Home</a></li>
@@ -57,7 +59,8 @@
           <section class="teachers-section">
             <h2>Meet Our Expert Tutors</h2>
             <div class="teacher-cards">
-              <div class="teacher-card">
+          
+              <div class="teacher-card" data-aos="flip-left">
                 <img src="https://via.placeholder.com/150" alt="Teacher 1">
                 <h3>Mr. Vikas Sarkar</h3>
                 <p>Data Structures & Algorithms with C++</p>
@@ -65,7 +68,7 @@
                 <button class="book-btn">Book Now</button>
               </div>
           
-              <div class="teacher-card">
+              <div class="teacher-card" data-aos="flip-right">
                 <img src="https://via.placeholder.com/150" alt="Teacher 2">
                 <h3>Mr. Vikas Yadav</h3>
                 <p>Data Structures & Algorithms with Java</p>
@@ -73,40 +76,47 @@
                 <button class="book-btn">Book Now</button>
               </div>
           
-              <div class="teacher-card">
+              <div class="teacher-card" data-aos="flip-up">
                 <img src="https://via.placeholder.com/150" alt="Teacher 3">
                 <h3>Ms. Siddharth Israni</h3>
                 <p>Web Development</p>
                 <p class="price">₹600/hour</p>
                 <button class="book-btn">Book Now</button>
               </div>
-
-              <div class="teacher-card">
+          
+              <div class="teacher-card" data-aos="flip-down">
                 <img src="https://via.placeholder.com/150" alt="Teacher 4">
                 <h3>Mr. Neeraj Kumar</h3>
                 <p>Python and Django</p>
                 <p class="price">₹600/hour</p>
                 <button class="book-btn">Book Now</button>
-
-            </div>
-            <div class="teacher-card">
+              </div>
+          
+              <div class="teacher-card" data-aos="flip-up">
                 <img src="https://via.placeholder.com/150" alt="Teacher 5">
                 <h3>Mr. Mahesh</h3>
                 <p>Python</p>
                 <p class="price">₹600/hour</p>
                 <button class="book-btn">Book Now</button>
-
-            </div>
-            <div class="teacher-card">
+              </div>
+          
+              <div class="teacher-card" data-aos="flip-right">
                 <img src="https://via.placeholder.com/150" alt="Teacher 6">
                 <h3>Mr. Rajesh</h3>
                 <p>React Js</p>
                 <p class="price">₹600/hour</p>
                 <button class="book-btn">Book Now</button>
-
-            </div>
+              </div>
+          
             </div>
           </section>
           
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js">
+  AOS.init({
+  duration: 1000, 
+  once: true,     
+});
+</script>
+
 </body>
 </html>

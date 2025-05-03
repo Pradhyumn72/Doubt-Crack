@@ -17,10 +17,10 @@ body{
 }
 nav{
     background: #8BC34A;
-    padding: 10px 0;
+    
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 50%;
     z-index: 1;
     font-size: medium;
     font-family: "Josefin Sans", sans-serif;

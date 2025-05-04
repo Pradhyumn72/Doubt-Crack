@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./Feedback.css">
+  <title>Feedback Form</title>
+  <style>
+ 
+</style>
+
+</head>
+<body>
+
+ 
+
+  
+  <div class="form-container">
+    <h2>Feedback Form</h2>
+    <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+        <input type="hidden" name="access_key" value="c35665a1-9f64-444a-b41e-cbb3eb8bf6f1">
+      <p id="errname"></p>
+      
+      <input type="text" id="name" name="Name" placeholder="Your Name" >
+
+      <p id="errnumber"></p>
+      <input type="number" id="number" name="Mobile Number" placeholder="Your Mobile Number" >
+
+      <p id="erremail"></p>
+      <input type="email" id="email" name="Email" placeholder="Your Email" >
+
+      <p id="errcourse"></p>
+      <input type="text" id="course" name="Subject Name" placeholder="Enter Subject Name">
+
+      <p id="errfacname"></p>
+      <input type="text" id="faculty" name="Faculty Name" placeholder="Enter Faculty Name">
+
+      <p id="errtime"></p>
+      <input type="text" id="time" name="Time Slot" placeholder="Enter Time Slot (in 24 hours format and should like ex- 14:00 to 15:00)" style="width: 100%;">
+        
+      <p id="errquery"></p>
+        <input type="text"  id="query" name="Query" placeholder="Enter query">
+
+      
+
+      <input type="submit" onclick="return val()">
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    </form>
+    <p id="statusMsg"></p>
+  </div>
+
+  
+    
+
+  <script src="Feedback.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* brings form to centre of the page  */
+    overflow-x: hidden;
+    background:  #557a2b;
+    color: white;
+    height: 100vh;
+  }
+
+
+
+  /* Gradient overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    z-index: -1;
+  }
+
+  /* Form container */
+  .form-container {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    width: 100vh;
+    height: 90vh;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .form-container h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+
+  .form-container input[type="text"] {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+  }
+
+  .form-container input[type="text"]::placeholder {
+    color: #eeeeee;
+  }
+
+  .form-container input[type="submit"] {
+    background: linear-gradient(to right, #673e10, #e6ae05);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 15px;
+  }
+
+  .form-container input[type="submit"]:hover {
+    background: linear-gradient(to right, #c4e605, #f2a500);
+  }
+
+  .form-container p {
+    margin: 0;
+    font-size: 16px;
+    color: #ff7070;
+    height: 14px;
+  }
+
+  #statusMsg {
+    text-align: center;
+    margin-top: 15px;
+    color: #90ffb3;
+    font-weight: 600;
+  }

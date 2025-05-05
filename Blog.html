@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./Blog.css">
-    <title>Document</title>
+    <title>Blogs</title>
 </head>
 <body>
     <header>  
@@ -31,47 +32,71 @@
 </div>
 <section class="blog-container">
 
+  <div data-aos="zoom-in">
     <div class="blog-card">
+      <img src="doubt-solving.jpg" alt="Master Doubt Solving">
       <h2>How to Master Doubt Solving in Tech Subjects</h2>
       <p>Learn proven strategies to tackle technical doubts effectively and build strong conceptual foundations.</p>
       <a href="#">Read More →</a>
     </div>
+  </div>
 
+  <div data-aos="zoom-in-up">
     <div class="blog-card">
+      <img src="online-platforms.jpg" alt="Top Online Platforms">
       <h2>Top 5 Platforms for Online Doubt Clearance</h2>
       <p>We compare the best online platforms for students to get help with their questions and assignments.</p>
       <a href="#">Read More →</a>
     </div>
+  </div>
 
+  <div data-aos="zoom-in-down">
     <div class="blog-card">
+      <img src="tutoring-vs-group.jpg" alt="Personalized Tutoring">
       <h2>Why Personalized Tutoring Beats Group Classes</h2>
       <p>Discover how 1:1 tutoring can dramatically improve your performance and confidence in tough subjects.</p>
       <a href="#">Read More →</a>
     </div>
+  </div>
 
   </section>
 
   <section class="blog-container">
-    <article class="blog-card">
+
+
+    <div data-aos="zoom-in-left">
+    <div class="blog-card">
       <img src="study-tips.jpg" alt="Study Tips">
       <h2>Top 5 Study Tips to Crack Tech Subjects</h2>
       <p>Struggling with CS subjects? Learn effective strategies to retain concepts and apply them smartly.</p>
       <a href="#">Read More →</a>
-    </article>
+      
+    </div>
+  </div>
 
-    <article class="blog-card">
+  <div data-aos="zoom-in-right">
+    <div class="blog-card">
       <img src="debugging.jpg" alt="Debugging Mistakes">
       <h2>Debugging Mistakes You Might Be Making</h2>
       <p>Learn how to approach debugging like a pro — and avoid common errors students make while coding.</p>
       <a href="#">Read More →</a>
-    </article>
+    </div>
+  </div>
 
-    <article class="blog-card">
+  <div data-aos="zoom-in-right">
+    <div class="blog-card">
       <img src="interview.jpg" alt="Interview Tips">
       <h2>How to Prepare for Tech Interviews from College</h2>
       <p>Get ahead of the curve with these real-world insights from mentors who’ve been through the grind.</p>
       <a href="#">Read More →</a>
-    </article>
+    </div>
+  </div>
   </section>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

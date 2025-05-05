@@ -12,7 +12,7 @@
   body {
     display: flex;
     justify-content: center;
-    align-items: center; /* brings form to centre of the page  */
+    align-items: center; 
     overflow-x: hidden;
     background:  #557a2b;
     color: white;
@@ -21,7 +21,7 @@
 
 
 
-  /* Gradient overlay */
+  
   .overlay {
     position: fixed;
     top: 0;
@@ -32,7 +32,7 @@
     z-index: -1;
   }
 
-  /* Form container */
+  
   .form-container {
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.2);

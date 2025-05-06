@@ -88,21 +88,122 @@ nav{
     z-index: 1000;
   }
 
-.hero{
-    margin-top: 190px;
-    margin-left: 400px;
-    position: relative;
-    background: url(./bgimg.webp)no-repeat center center/cover;
-    height: 60vh;
-    width: 100vh;
+  .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style: normal;
-    right: 60px;
+    padding: 100px 60px 60px;
+    background: linear-gradient(135deg, #8BC34A, #689F38);
+    color: white;
+    min-height: 80vh;
+}
 
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    padding: 12px 25px;
+    background-color: #fff;
+    color: #689F38;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.cta-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.hero-image {
+    width: 40%;
+    height: 300px;
+    background: url('./bgimg.webp') no-repeat center center/cover;
+    border-radius: 10px;
+}
+
+.features-trello-style {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 40px;
+    background-color: #fff;
+}
+
+.feature {
+    background-color: #f1f8e9;
+    border-radius: 8px;
+    padding: 30px;
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.feature h2 {
+    color: #33691E;
+    margin-bottom: 15px;
+}
+
+.highlight {
+    background-color: #e8f5e9;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.highlight h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #558B2F;
+}
+
+.highlight p {
+    font-size: 1.1em;
+    color: #33691E;
+    max-width: 800px;
+    margin: auto;
+}
+
+.testimonials {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #33691E;
+}
+
+.testimonial {
+    background-color: #e8f5e9;
+    border-left: 5px solid #8BC34A;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-style: italic;
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    color: #558B2F;
+    font-size: 16px;
+    margin-top: 0;
 }

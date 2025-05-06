@@ -177,3 +177,61 @@ nav{
   font-weight: bold;
 }
 
+.footer {
+  background: #8BC34A;
+  color:white;
+  padding: 40px 10%;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures proper spacing */
+  min-height: 250px; /* Adjust as needed */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons Styling */
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 25px;
+  height: 25px;
+  filter: brightness(0) invert(1);
+}
+
+/* Fix for Copyright Alignment */
+.footer-copyright {
+  text-align: center;
+  margin-top: auto; /* Pushes it to the bottom */
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}

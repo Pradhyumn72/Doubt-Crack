@@ -103,12 +103,12 @@ nav{
 }
 
 .hero-content h1 {
-    font-size: 3em;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
 .hero-content p {
-    font-size: 1.2em;
+    font-size: 19px;
     margin-bottom: 30px;
 }
 
@@ -161,13 +161,13 @@ nav{
 }
 
 .highlight h2 {
-    font-size: 2em;
+    font-size: 32px;
     margin-bottom: 20px;
     color: #558B2F;
 }
 
 .highlight p {
-    font-size: 1.1em;
+    font-size: 17px;
     color: #33691E;
     max-width: 800px;
     margin: auto;

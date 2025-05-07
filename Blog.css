@@ -98,12 +98,12 @@ nav{
   }
 
   .blog-hero h1 {
-    font-size: 2.5em;
+    font-size: 40px;
     margin-bottom: 10px;
   }
   
   .blog-hero p {
-    font-size: 1.2em;
+    font-size:20px;
     max-width: 600px;
     margin: 0 auto;
   }
@@ -114,7 +114,7 @@ nav{
     justify-content: center; 
     gap: 200px;
     flex-wrap: wrap;         
-    padding: 2rem;
+    padding: 32px;
     max-width: 1200px;
     margin: auto;
   }
@@ -131,19 +131,19 @@ nav{
   
   
   .blog-card h2 {
-    margin: 1rem;
-    font-size: 1.2rem;
+    margin: 16px;
+    font-size: 20px;
     color: #273c75;
   }
   
   .blog-card p {
-    margin: 0 1rem 1rem;
+    margin: 0 16px 16px;
     color: #555;
   }
   
   .blog-card a {
     display: block;
-    margin: 0 1rem 1rem;
+    margin: 0 16px 16px;
     color: #4CAF50;
     text-decoration: none;
     font-weight: bold;
@@ -154,8 +154,8 @@ nav{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem;
-  gap: 2rem;
+  padding: 16px;
+  gap: 16px;
 }
 
 .blog-card {
@@ -176,18 +176,18 @@ nav{
 }
 
 .blog-card h2 {
-  margin: 1rem;
-  font-size: 1.2rem;
+  margin: 16px;
+  font-size: 20px;
 }
 
 .blog-card p {
-  margin: 0 1rem 1rem;
+  margin: 0 16px 16px;
   color: #555;
 }
 
 .blog-card a {
   display: block;
-  margin: 0 1rem 1rem;
+  margin: 0 16px 16px;
   color: #4CAF50;
   text-decoration: none;
   font-weight: bold;

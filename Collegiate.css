@@ -97,7 +97,7 @@ nav{
   }
   
   .hero h1 {
-    font-size: 3em;
+    font-size: 48px;
     margin: 0;
   }
   
@@ -112,7 +112,7 @@ nav{
   .description .prompt {
     margin-top: 30px;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 17px;
   }
   
  
@@ -126,7 +126,7 @@ nav{
   
   .level-buttons button {
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 16px;
     background: white;
     border: 2px solid #1976d2;
     color: #1976d2;
@@ -150,7 +150,7 @@ nav{
   }
   
   .courses h2 {
-    font-size: 2em;
+    font-size: 32px;
     color: #37474f;
     margin-bottom: 20px;
   }

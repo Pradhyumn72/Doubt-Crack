@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Contact_us.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact us</title>
 </head>
 <body>
     <header>  
@@ -28,9 +29,47 @@
         </nav>
 
 </header>
+<a href="Feedback.html"><div class="feedback-bar">Feedback</div></a>
 
 <main>
-    
+    <section class="contact-section">
+
+        <div class="contact-container">
+            <h1>Get In Touch With Us</h1>
+            <p>We are here to help you with your career guidance. Reach out to us anytime.</p>
+
+            <div class="contact-info">
+                <div>
+                    <h3>📞 Call Us</h3>
+                    <p>+91-9755996968</p>
+                </div>
+                <div>
+                    <h3>📧 Email Us</h3>
+                    <p> info@cybrom.com</p>
+                </div>
+                <div>
+                    <h3>📍 Visit Us</h3>
+                    <p>Zone-I,MP Nagar,Bhopal</p>
+                </div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form "> 
+                <input type="hidden" name="access_key" value="c35665a1-9f64-444a-b41e-cbb3eb8bf6f1">
+            
+                <br>
+                <input type="text" name="full_name" placeholder="Full Name" required>
+                 <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone" required>
+                 
+                <textarea name="message" placeholder="Anything We Need To Know? (Optional)"></textarea>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;"><br>
+            <button type="submit" >Submit</button>
+            </form> 
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.284749887303!2d77.43031987558847!3d23.232722979027066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c435605f269e1%3A0xe67446598d15ad0e!2sCybrom%20Technology%20Pvt.%20Ltd.%20-%20Python%2C%20Data%20Science%2C%20Cyber%20Security%2C%20AI%20%26%20Web%20Development%20Courses%20%26%20Training%20in%20Bhopal!5e0!3m2!1sen!2sin!4v1742099906601!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
 </main>
 
 
@@ -65,5 +104,6 @@
         </div>
     
     </footer>
+    <script src="./Feedback.js"></script>
 </body>
 </html>

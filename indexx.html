@@ -11,7 +11,7 @@
 <body>
 
   <!-- Swiper Background Slideshow -->
-  <div class="swiper">
+  <!-- <div class="swiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="./sld1.jpg" alt="Slide 1"></div>
       <div class="swiper-slide"><img src="./sld2.jpg" alt="Slide 2"></div>
@@ -22,7 +22,7 @@
       <div class="swiper-slide"><img src="./sld7.jpg" alt="Slide 7"></div>
     
     </div>
-  </div>
+  </div> -->
 
   <!-- Form -->
   <div class="form-container">
@@ -44,7 +44,7 @@
     </div>
   </div>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
     var swiper = new Swiper('.swiper', {
       loop: true,
@@ -54,7 +54,47 @@
       },
       effect: 'fade',
     });
-  </script>
+  </script> -->
+  <script src="three.r134.min.js"></script>
+<script src="vanta.globe.min.js"></script>
+<script>
+VANTA.GLOBE({
+  el: ".form-container",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xd9d9d9,
+  color2: 0x35e3,
+  backgroundColor: 0x8bc34a
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+<script>
+var setVanta = ()=>{
+if (window.VANTA) window.VANTA.GLOBE({
+  el: ".s-page-1 .s-section-1 .s-section",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xd9d9d9,
+  color2: 0x35e3,
+  backgroundColor: 0x8bc34a
+})
+}
+_strk.push(function() {
+  setVanta()
+  window.edit_page.Event.subscribe( "Page.beforeNewOneFadeIn", setVanta )
+})
+</script>
   <script src="./Sign_up.js"></script>
   <script src="./Login.js"></script>
   

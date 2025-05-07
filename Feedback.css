@@ -20,7 +20,12 @@
   }
 
 
-
+a{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+  
+}
   
   .overlay {
     position: fixed;
@@ -66,6 +71,28 @@
     background: rgba(255, 255, 255, 0.2);
     color: #ffffff;
   }
+  .form-container input[type="number"] {
+    background: rgba(255, 255, 255, 0.2);
+    color:white;
+    width: 100%;
+    padding:10px 5px;
+    margin: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+  .form-container input[type="email"] {
+    background: rgba(255, 255, 255, 0.2);
+    color:white;
+    width: 100%;
+    padding:10px 5px;
+    margin: 4px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
 
   .form-container input[type="text"]::placeholder {
     color: #eeeeee;
@@ -81,7 +108,7 @@
   }
 
   .form-container input[type="submit"]:hover {
-    background: linear-gradient(to right, #c4e605, #f2a500);
+    background: linear-gradient(#c4e605, #f2a500);
   }
 
   .form-container p {

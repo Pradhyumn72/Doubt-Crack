@@ -15,6 +15,7 @@
 
   
   <div class="form-container">
+    <a href="./index.html"><-- Go back</a>
     <h2>Feedback Form</h2>
     <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
         <input type="hidden" name="access_key" value="c35665a1-9f64-444a-b41e-cbb3eb8bf6f1">
@@ -23,10 +24,10 @@
       <input type="text" id="name" name="Name" placeholder="Your Name" >
 
       <p id="errnumber"></p>
-      <input type="number" id="number" name="Mobile Number" placeholder="Your Mobile Number" >
+      <input type="text" id="number" name="Mobile Number" placeholder="Your Mobile Number" >
 
       <p id="erremail"></p>
-      <input type="email" id="email" name="Email" placeholder="Your Email" >
+      <input type="text" id="email" name="Email" placeholder="Your Email" >
 
       <p id="errcourse"></p>
       <input type="text" id="course" name="Subject Name" placeholder="Enter Subject Name">
@@ -43,12 +44,16 @@
       
 
       <input type="submit" onclick="return val()">
+      
+      
+      
       <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+     
     </form>
     <p id="statusMsg"></p>
   </div>
 
-  
+ 
     
 
   <script src="Feedback.js"></script>

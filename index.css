@@ -208,6 +208,58 @@ nav{
     margin-top: 0;
 }
 
+.top-tutors {
+    padding: 60px 40px;
+    background-color: #f1f8e9;
+    text-align: center;
+}
+
+.tutor-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.tutor-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    width: 200px;
+}
+
+.tutor-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Subjects Covered */
+.subjects-covered {
+    padding: 60px 40px;
+    background: #fff;
+    text-align: center;
+}
+
+.subjects-covered ul {
+    list-style: none;
+    padding: 0;
+    max-width: 700px;
+    margin: auto;
+}
+
+.subjects-covered li {
+    background: #e8f5e9;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    color: #33691E;
+}
+
+
+
 .footer {
     background: #8BC34A;
     color:white;

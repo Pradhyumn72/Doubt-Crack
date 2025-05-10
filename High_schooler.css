@@ -188,7 +188,7 @@ nav{
   .teachers-section {
     padding: 60px 20px;
     text-align: center;
-    /* background-color: #f9f9f9; */
+    
    
   }
   
@@ -206,16 +206,81 @@ nav{
     padding: 0 20px;
   }
   .description-tutor {
- 
+  
+
     margin-left: 40px;
     max-width: 400px;
     font-size: 16px;
     line-height: 1.5;
-    text-align: left;
     color: black;
-    display: block;
+  
+  }
+  .description-tutor1{
+    position: absolute;
+    top: 95vh;
+    left: 54vh;
+    right: 10vh;
   }
 
+  .description-tutor2{
+    position: absolute;
+    color: black;
+    top: 125vh;
+    left: 54vh;
+    right: 10vh;
+  }
+
+  .description-tutor3{
+    position: absolute;
+    color: black;
+    top: 155vh;
+    left: 54vh;
+    right: 10vh;
+  }
+
+
+  .description-tutor4{
+    position: absolute;
+    color: black;
+    top: 186vh;
+    left: 54vh;
+    right: 10vh;
+  }
+
+  .description-tutor5{
+    position: absolute;
+    color: black;
+    top: 216vh;
+    left: 54vh;
+    right: 10vh;
+  }
+
+  .description-tutor6{
+    position: absolute;
+    color: black;
+    top: 246vh;
+    left: 54vh;
+    right: 10vh;
+  }
+
+  .description-tutor7{
+    position: absolute;
+    color: black;
+    top: 276vh;
+    left: 54vh;
+    right: 10vh;
+  }
+  /*
+  /* .description-tutor:nth-child(odd){
+    position: absolute;
+    top: 30vh;
+    left: 400px;
+  }
+.description-tutor:nth-child(even){
+  position: absolute;
+  top: 30vh;
+  right: 100px;
+} */
   .teacher-card {
     background: #fff;
     border-radius: 12px;

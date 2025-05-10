@@ -113,6 +113,25 @@ nav{
     padding: 0 20px;
     color: black;
   }
+  .description-tutor1{
+    color: black;
+    position: absolute;
+    left: 70vh;
+    top: 100vh;
+  }
+  .description-tutor2{
+    color: black;
+    position: absolute;
+    right: 100vh;
+    top: 145vh;
+  }
+  .description-tutor3{
+    color: black;
+    position: absolute;
+    left: 100vh;
+    top: 185vh;
+  }
+  
   
   .description .prompt {
     margin-top: 30px;

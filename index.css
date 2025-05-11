@@ -318,3 +318,236 @@ nav{
     padding-top: 15px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
   }
+
+
+
+  /* @media (max-width: 430px) {
+    *{
+        overflow-x: hidden;
+    }
+    nav {
+      font-size: small;
+      padding: 10px;
+    }
+  
+    .nav-link {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-link li {
+      margin: 10px 0;
+    }
+  
+    .hero {
+      flex-direction: column;
+      padding: 80px 20px 40px;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .hero-content h1 {
+      font-size: 32px;
+    }
+  
+    .hero-content p {
+      font-size: 16px;
+    }
+  
+    .hero-image {
+      width: 100%;
+      height: 200px;
+      margin-top: 20px;
+    }
+  
+    .features-trello-style {
+      flex-direction: column;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+  
+    .feature {
+      width: 100%;
+    }
+  
+    .highlight h2 {
+      font-size: 24px;
+    }
+  
+    .highlight p {
+      font-size: 15px;
+      padding: 0 10px;
+    }
+  
+    .testimonials h2 {
+      font-size: 24px;
+    }
+  
+    .testimonial {
+      padding: 15px;
+      font-size: 16px;
+    }
+  
+    .top-tutors {
+      padding: 40px 20px;
+    }
+  
+    .tutor-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tutor-card {
+      width: 90%;
+    }
+  
+    .subjects-covered {
+      padding: 40px 20px;
+    }
+  
+    .subjects-covered li {
+      font-size: 15px;
+    }
+  
+    .footer {
+      padding: 30px 5%;
+      font-size: 14px;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .social-icons {
+      flex-direction: row;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .feedback-bar {
+      font-size: 14px;
+      padding: 8px 4px;
+    }
+  }
+
+  @media (min-width: 430px) and (max-width: 768px) {
+    nav {
+      font-size: medium;
+      padding: 15px 10px;
+    }
+  
+    .nav-link {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .nav-link li {
+      margin: 10px;
+    }
+  
+    .hero {
+      flex-direction: column;
+      padding: 100px 30px 40px;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .hero-content h1 {
+      font-size: 40px;
+    }
+  
+    .hero-content p {
+      font-size: 18px;
+    }
+  
+    .hero-image {
+      width: 100%;
+      height: 250px;
+      margin-top: 25px;
+    }
+  
+    .features-trello-style {
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 30px;
+      gap: 30px;
+    }
+  
+    .feature {
+      width: 80%;
+    }
+  
+    .highlight h2 {
+      font-size: 28px;
+    }
+  
+    .highlight p {
+      font-size: 16px;
+      padding: 0 20px;
+    }
+  
+    .testimonials h2 {
+      font-size: 28px;
+    }
+  
+    .testimonial {
+      padding: 18px;
+      font-size: 17px;
+    }
+  
+    .top-tutors {
+      padding: 50px 30px;
+    }
+  
+    .tutor-cards {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .tutor-card {
+      width: 45%;
+    }
+  
+    .subjects-covered {
+      padding: 50px 30px;
+    }
+  
+    .subjects-covered li {
+      font-size: 16px;
+    }
+  
+    .footer {
+      padding: 35px 8%;
+      font-size: 15px;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .social-icons {
+      flex-direction: row;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .feedback-bar {
+      font-size: 16px;
+      padding: 10px 6px;
+    }
+  }
+  
+   */
+
+
+   

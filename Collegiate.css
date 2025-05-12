@@ -116,48 +116,46 @@ nav{
   .description-tutor1{
     color: black;
     position: absolute;
-    left: 70vh;
-    top: 105 vh;
+    left:40%;
+    top: 100% ;
   }
   .description-tutor2{
     color: black;
     position: absolute;
-    right: 60vh;
-    top: 150vh;
+    right: 35%;
+    top: 140%;
   }
   .description-tutor3{
     color: black;
     position: absolute;
-    left: 59vh;
-    top: 193vh;
+    left: 35%;
+    top: 185%;
   }
   
   .description-tutor4{
     color: black;
     position: absolute;
-    right: 60vh;
-    top: 230vh;
+    right: 35%;
+    top: 225%;
   }
   .description-tutor5{
     color: black;
     position: absolute;
-    left: 70vh;
-    top: 260vh;
+    left: 35%;
+    top: 265%;
   }
   .description-tutor6{
     color: black;
     position: absolute;
-    right:80vh;
-    left: 10vh;
-    top: 310vh;
+    right:35%;
+    top: 305%;
     
   }
   .description-tutor7{
     color: black;
     position: absolute;
-    left: 60vh;
-  
-    top: 350vh;
+    left: 35%;
+    top: 345%;
   }
   
   

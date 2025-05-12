@@ -216,60 +216,50 @@ nav{
   
   }
   .description-tutor1{
+    color: black;
     position: absolute;
-    top: 95vh;
-    left: 54vh;
-    right: 10vh;
+    left:40%;
+    top: 100% ;
   }
-
   .description-tutor2{
-    position: absolute;
     color: black;
-    top: 125vh;
-    left: 54vh;
-    right: 10vh;
+    position: absolute;
+    right: 35%;
+    top: 140%;
   }
-
   .description-tutor3{
-    position: absolute;
     color: black;
-    top: 155vh;
-    left: 54vh;
-    right: 10vh;
+    position: absolute;
+    left: 35%;
+    top: 185%;
   }
-
-
+  
   .description-tutor4{
-    position: absolute;
     color: black;
-    top: 186vh;
-    left: 54vh;
-    right: 10vh;
+    position: absolute;
+    right: 35%;
+    top: 225%;
   }
-
   .description-tutor5{
-    position: absolute;
     color: black;
-    top: 216vh;
-    left: 54vh;
-    right: 10vh;
+    position: absolute;
+    left: 35%;
+    top: 265%;
   }
-
   .description-tutor6{
-    position: absolute;
     color: black;
-    top: 246vh;
-    left: 54vh;
-    right: 10vh;
+    position: absolute;
+    right:35%;
+    top: 305%;
+    
   }
-
   .description-tutor7{
-    position: absolute;
     color: black;
-    top: 276vh;
-    left: 54vh;
-    right: 10vh;
+    position: absolute;
+    left: 35%;
+    top: 345%;
   }
+  
   /*
   /* .description-tutor:nth-child(odd){
     position: absolute;

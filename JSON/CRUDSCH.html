@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crud.css">
+    <title>Document</title>
+</head>
+<body>
+   
+
+
+    <form align="center" id="form-container">
+        Enter your name :<input type="text" name="" id="name"> <br>
+        Enter your age : <input type="number" name="" id="age"><br>
+        Select your Subject : <select  id="subject" onchange=" return autoselect()"> <br>
+            <option value="Select your Subject">Select your Subject</option>
+            <option value="Python">Python</option>
+            <option value="Django">Django</option>
+            <option value="C++">C++</option>
+            <option value="Dsa">Dsa</option>
+            <option value="Java">Java</option>
+            <option value="React and SQL">React and SQL</option>
+            <option value="Frontend(HTML,CSS,JS)">Frontend</option>
+        </select>
+        Select the faculty: <select id="faculty"> <br>
+            <option value=" Select the faculty"> Select the faculty</option>
+            <option value="Mr.Neeraj Kumar(Rs.700/hour)">Mr.Neeraj Kumar</option>
+            <option value="Mr.Vikas Sarkar(Rs.700/hour)">Mr.Vikas Sarkar</option>
+            <option value="Mr.Vikas Yadav(Rs.600/hour)">Mr.Vikas Yadav</option>
+            <option value="Mr.Alok(Rs.600/hour)">Mr.Alok</option>
+            <option value="Mr.Rajesh(Rs.650/hour)">Mr.Rajesh</option>
+            <option value="Mr.Siddharth Israni(Rs.700/hour)">Mr.Siddharth Israni</option>
+        </select>
+        Select time slot : <select  id="timeslot"><br>
+            <option value="Select time slot">Select time slot</option>
+            <option value="13:00 - 14:00">13:00 - 14:00</option>
+            <option value="14:00 - 15:00">14:00 - 15:00</option>
+            <option value="15:00 - 16:00">15:00 - 16:00</option>
+            <option value="17:00 - 18:00">17:00 - 18:00</option>   
+            <option value="19:00 - 20:00">19:00 - 20:00</option>
+            <option value="20:00 - 21:00">20:00 - 21:00</option>
+
+        </select>
+        <input type="submit" name="Book Slot" onclick="return Book()">
+
+    </form>
+    <script src="Crud3.js">
+      
+    </script>
+    
+</body>
+</html>
+
+

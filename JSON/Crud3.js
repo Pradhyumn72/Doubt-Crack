@@ -45,27 +45,8 @@ let fetchData = async () => {
     let name = document.querySelector("#name").value;
     let age = document.querySelector("#age").value;
     let subject = document.querySelector("#subject").value;
-    let faculty;
+    let faculty=document.querySelector("#faculty").value
     let timeslot = document.querySelector("#timeslot").value;
-    if(subject==="Python" || subject==="Django"){
-      faculty.value="Mr.Neeraj Kumar(Rs,700/hour)"
-    }
-    else if(subject==="Dsa"){
-      faculty.value="Mr.Vikas Sarkar(Rs.700/hour"
-    }
-    else if(subject==="C++"){
-      faculty.value="Mr.Vikas Yadav(Rs.600/hour)"
-    }
-    else if(subject==="Java"){
-      faculty.value="Mr.Alok(Rs.600/hour)"
-    }
-    else if(subject==="React and SQL"){
-      faculty.value="Mr.Rajesh(Rs.650/hour)"
-    }
-    else if(subject==="Frontend(HTML,CSS,JS)"){
-      faculty.value="Mr.Siddharth Israni(Rs.700/hour)"
-    }
-  
     
   
   
@@ -103,8 +84,8 @@ let fetchData = async () => {
     let data = await res.json();
   
     //form dikhana h update pr click krne pr -->
-    let Update = document.querySelector("#Updateform");
-    Update.innerHTML += `
+    let Updatee = document.querySelector("#UpdateForm");
+    Updatee.innerHTML += `
       Enter Name: <input type="text" id="upname" value="${data.name}" /><br /><br />
       Enter Age: <input type="text" id="upage" value="${data.age}" /><br /><br />
      
@@ -138,12 +119,12 @@ let fetchData = async () => {
             <option value="19:00 - 20:00">19:00 - 20:00</option>
             <option value="20:00 - 21:00">20:00 - 21:00</option>
         </select>
-      <button onclick="return Update('${data.id}')">Update Data</button>
+      <button onclick="return Updatte('${data.id}')">Update Data</button>
     `;
     
   };
   
-  let Update = (id) => {
+  let Updatte = (id) => {
     let url = `http://localhost:3000/personal-details/${id}`;
   
     let name = document.querySelector("#upname").value;

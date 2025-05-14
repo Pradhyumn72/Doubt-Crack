@@ -45,28 +45,9 @@ let fetchData = async () => {
     let name = document.querySelector("#name").value;
     let age = document.querySelector("#age").value;
     let subject = document.querySelector("#subject").value;
-    let faculty;
+    let faculty=document.querySelector("#faculty").value;
     let timeslot = document.querySelector("#timeslot").value;
-    if(subject==="Python" || subject==="Django"){
-      faculty.value="Mr.Neeraj Kumar(Rs,700/hour)"
-    }
-    else if(subject==="Dsa"){
-      faculty.value="Mr.Vikas Sarkar(Rs.700/hour"
-    }
-    else if(subject==="C++"){
-      faculty.value="Mr.Vikas Yadav(Rs.600/hour)"
-    }
-    else if(subject==="Java"){
-      faculty.value="Mr.Alok(Rs.600/hour)"
-    }
-    else if(subject==="React and SQL"){
-      faculty.value="Mr.Rajesh(Rs.650/hour)"
-    }
-    else if(subject==="Frontend(HTML,CSS,JS)"){
-      faculty.value="Mr.Siddharth Israni(Rs.700/hour)"
-    }
-  
-    
+   
   
   
     let url = "http://localhost:3000/personal-details";
@@ -87,13 +68,11 @@ let fetchData = async () => {
     });
     
   
-    location.href = "Crud2.html";
+    location.href = "CRUDSCH2.html";
     return false;
   };
 
-  // Enter Subject: <input type="date" id="upsubject" value="${data.subject}" />
-  // Enter Faculty: <input type="date" id="upfaculty" value="${data.faculty}" /><br /><br />
-  // Enter Timeslot : <input type="date" id="uptimeslot" value="${data.timeslot}" /><br /><br />
+
 
   //Put method
   let Formopen = async (id) => {
@@ -103,33 +82,35 @@ let fetchData = async () => {
     let data = await res.json();
   
     //form dikhana h update pr click krne pr -->
-    let Update = document.querySelector("#Updateform");
-    Update.innerHTML += `
-      Enter Name: <input type="text" id="upname" value="${data.name}" /><br /><br />
-      Enter Age: <input type="text" id="upage" value="${data.age}" /><br /><br />
+    let Updatee = document.querySelector("#UpdateForm2");
+    Updatee.innerHTML += `
+      Enter Name: <input type="text" id="up2name" value="${data.name}" /><br /><br />
+      Enter Age: <input type="text" id="up2age" value="${data.age}" /><br /><br />
      
-      Select your Subject : <select  id="upsubject"> <br /><br />
-            <option value="Select your Subject">Select your Subject</option>
-            <option value="Python">Python</option>
-            <option value="Django">Django</option>
-            <option value="C++">C++</option>
-            <option value="Dsa">Dsa</option>
-            <option value="Java">Java</option>
-            <option value="React and SQL">React and SQL</option>
-            <option value="Frontend(HTML,CSS,JS)">Frontend</option>
+      Select your Subject : <select  id="up2subject"> <br /><br />
+      <option value="Select your Subject">Select your Subject</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Physics">Physics</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Business Studies">Business Studies</option>
+            <option value="Modern History">Modern History</option>
+            <option value="Economics">Economics</option>
+            <option value="Accounts">Accounts</option>
+            
+          
         </select>
       
-      Select the faculty: <select id="upfaculty"> <br /><br />
+      Select the faculty: <select id="up2faculty"> <br /><br />
             <option value=" Select the faculty"> Select the faculty</option>
-            <option value="Mr.Neeraj Kumar(Rs.700/hour)">Mr.Neeraj Kumar</option>
-            <option value="Mr.Vikas Sarkar(Rs.700/hour)">Mr.Vikas Sarkar</option>
-            <option value="Mr.Vikas Yadav(Rs.600/hour)">Mr.Vikas Yadav</option>
-            <option value="Mr.Alok(Rs.600/hour)">Mr.Alok</option>
-            <option value="Mr.Rajesh(650/hour)">Mr.Rajesh</option>
-            <option value="Mr.Siddharth Israni(Rs.700/hour)">Mr.Siddharth Israni</option>
+            <option value="Mr.Dhiraj Sharma(Rs.500/hour)">Mr. Dhiraj Sharma</option>
+            <option value="Mr.Hemant Patidar(Rs.500/hour)">Mr. Hemant Patidar</option>
+            <option value="Mr. Nitish Biswas(Rs.500/hour)">Mr. Nitish Biswas</option>
+            <option value="Mr. Alok Nath(Rs.450/hour)">Mr. Alok Nath</option>
+            <option value="Mr. Mahesh Rawat(Rs.400/hour)">Mr. Mahesh Rawat</option>
+            <option value="Mr. Vikas Iyer(Rs.400/hour)">Mr. Vikas Iyer</option>
         </select>
      
-      Select time slot : <select  id="uptimeslot"><br><br><br><br>
+      Select time slot : <select  id="up2timeslot"><br><br><br><br>
             <option value="Select time slot">Select time slot</option>
             <option value="13:00 - 14:00">13:00 - 14:00</option>
             <option value="14:00 - 15:00">14:00 - 15:00</option>
@@ -138,19 +119,19 @@ let fetchData = async () => {
             <option value="19:00 - 20:00">19:00 - 20:00</option>
             <option value="20:00 - 21:00">20:00 - 21:00</option>
         </select>
-      <button onclick="return Update('${data.id}')">Update Data</button>
+      <button onclick="return Updatte('${data.id}')">Update Data</button>
     `;
     
   };
   
-  let Update = (id) => {
+  let Updatte = (id) => {
     let url = `http://localhost:3000/personal-details/${id}`;
   
-    let name = document.querySelector("#upname").value;
-    let age = document.querySelector("#upage").value;
-    let subject =document.querySelector("#upsubject").value
-    let faculty=document.querySelector("#upfaculty").value
-    let timeslot=document.querySelector("#uptimeslot").value
+    let name = document.querySelector("#up2name").value;
+    let age = document.querySelector("#up2age").value;
+    let subject =document.querySelector("#up2subject").value
+    let faculty=document.querySelector("#up2faculty").value
+    let timeslot=document.querySelector("#up2timeslot").value
     
   
     fetch(url, {

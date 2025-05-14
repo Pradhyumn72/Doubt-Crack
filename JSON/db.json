@@ -1,12 +1,28 @@
 {
   "personal-details": [
     {
-      "name": "jaj",
-      "age": "54",
+      "name": "yamal",
+      "age": "17",
       "subject": "Dsa",
       "faculty": "Mr.Vikas Yadav(Rs.600/hour)",
-      "timeslot": "14:00 - 15:00",
-      "id": "d5d0"
+      "timeslot": "13:00 - 14:00",
+      "id": "6c76"
+    },
+    {
+      "id": "de16",
+      "name": "dwerw",
+      "age": "123",
+      "subject": "Physics",
+      "faculty": " Select the faculty",
+      "timeslot": "Select time slot"
+    },
+    {
+      "name": "2ee2",
+      "age": "123",
+      "subject": "Select your Subject",
+      "faculty": " Select the faculty",
+      "timeslot": "Select time slot",
+      "id": "0599"
     }
   ]
 }

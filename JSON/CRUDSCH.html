@@ -13,24 +13,24 @@
     <form align="center" id="form-container">
         Enter your name :<input type="text" name="" id="name"> <br>
         Enter your age : <input type="number" name="" id="age"><br>
-        Select your Subject : <select  id="subject" onchange=" return autoselect()"> <br>
+        Select your Subject : <select  id="subject"> <br>
             <option value="Select your Subject">Select your Subject</option>
-            <option value="Python">Python</option>
-            <option value="Django">Django</option>
-            <option value="C++">C++</option>
-            <option value="Dsa">Dsa</option>
-            <option value="Java">Java</option>
-            <option value="React and SQL">React and SQL</option>
-            <option value="Frontend(HTML,CSS,JS)">Frontend</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Physics">Physics</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Business Studies">Business Studies</option>
+            <option value="Modern History">Modern History</option>
+            <option value="Economics">Economics</option>
+            <option value="Accounts">Accounts</option>
         </select>
         Select the faculty: <select id="faculty"> <br>
             <option value=" Select the faculty"> Select the faculty</option>
-            <option value="Mr.Neeraj Kumar(Rs.700/hour)">Mr.Neeraj Kumar</option>
-            <option value="Mr.Vikas Sarkar(Rs.700/hour)">Mr.Vikas Sarkar</option>
-            <option value="Mr.Vikas Yadav(Rs.600/hour)">Mr.Vikas Yadav</option>
-            <option value="Mr.Alok(Rs.600/hour)">Mr.Alok</option>
-            <option value="Mr.Rajesh(Rs.650/hour)">Mr.Rajesh</option>
-            <option value="Mr.Siddharth Israni(Rs.700/hour)">Mr.Siddharth Israni</option>
+            <option value="Mr.Dhiraj Sharma(Rs.500/hour)">Mr. Dhiraj Sharma</option>
+            <option value="Mr.Hemant Patidar(Rs.500/hour)">Mr. Hemant Patidar</option>
+            <option value="Mr. Nitish Biswas(Rs.500/hour)">Mr. Nitish Biswas</option>
+            <option value="Mr. Alok Nath(Rs.450/hour)">Mr. Alok Nath</option>
+            <option value="Mr. Mahesh Rawat(Rs.400/hour)">Mr. Mahesh Rawat</option>
+            <option value="Mr. Vikas Iyer(Rs.400/hour)">Mr. Vikas Iyer</option>
         </select>
         Select time slot : <select  id="timeslot"><br>
             <option value="Select time slot">Select time slot</option>
@@ -47,6 +47,23 @@
     </form>
     <script src="Crud3.js">
       
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+    VANTA.NET({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xdcdcdc,
+      backgroundColor: 0x37af54
+    })
     </script>
     
 </body>

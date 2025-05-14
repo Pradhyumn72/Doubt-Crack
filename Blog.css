@@ -252,140 +252,135 @@ nav{
   border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-@media(max-width: 430px) {
+@media screen and (max-width: 1023px) {
+  /* Header and Navigation adjustments */
+  header {
+    position: relative;
+  }
+  
   nav {
-    font-size: 14px;
-    padding: 8px 0;
+    padding: 10px 15px;
   }
-
+  
   .nav-link {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
+    padding: 0 10px;
   }
-
-  .nav-link img {
+  
+  .nav-link img.Logo {
     height: 60px;
     width: 60px;
   }
+}
 
+.footer-container {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  /* Header and Navigation */
+  header {
+    position: relative;
+  }
+  
+  header svg.hamburger-icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  
+  nav {
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+  
+  .nav-link {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Hidden by default */
+    width: 70%;
+    height: 100vh;
+    background-color: #8BC34A;
+    flex-direction: column;
+    padding: 80px 0 20px;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+  
+  .nav-link.active {
+    left: 0; /* Show when active */
+  }
+  
   .nav-link li {
-    margin: 5px 10px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
   }
-
-  .blog-hero h1 {
-    font-size: 28px;
+  
+  .nav-link img.Logo {
+    margin-bottom: 20px;
   }
-
-  .blog-hero p {
-    font-size: 16px;
-    padding: 0 10px;
-  }
-
-  .blog-container {
-    gap: 16px;
-    padding: 16px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .blog-card {
-    width: 90%;
-  }
-
-  .footer {
-    padding: 30px 5%;
+  
+  /* Feedback bar adjustment */
+  .feedback-bar {
     font-size: 14px;
-  }
-
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .footer-section h4 {
-    text-align: center;
-  }
-
-  .footer-section a {
-    text-align: center;
-  }
-
-  .social-icons {
-    flex-direction: row;
-    justify-content: center;
-    gap: 15px;
+    padding: 8px 3px;
   }
 }
 
 
 
-@media screen and (min-width: 430px) and (max-width: 768px) {
-  nav {
-    font-size: 16px;
-    padding: 10px 0;
-  }
-
+@media screen and (max-width: 480px) {
+   
   .nav-link {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    width: 85%; 
   }
+  
+  .hero-content h1 {
+    font-size: 24px;
+  }
+  
+  .cta-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}
 
-  .nav-link img {
-    height: 70px;
-    width: 70px;
-  }
 
-  .nav-link li {
-    margin: 5px 10px;
-  }
+.footer {
+  padding: 20px 10px;
+}
 
-  .blog-hero h1 {
-    font-size: 32px;
-  }
+.footer-copyright {
+  font-size: 14px;
+}
 
-  .blog-hero p {
-    font-size: 18px;
-    padding: 0 15px;
-  }
 
-  .blog-container {
-    flex-direction: row;
-    justify-content: center;
-    gap: 32px;
-    padding: 24px;
-  }
 
-  .blog-card {
-    width: 80%;
-    max-width: 350px;
-  }
 
-  .footer {
-    padding: 30px 7%;
-    font-size: 15px;
-  }
+header svg.hamburger-icon {
+transition: transform 0.3s ease-in-out;
+}
 
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .footer-section {
-    align-items: center;
-  }
-
-  .footer-section h4,
-  .footer-section a {
-    text-align: center;
-  }
-
-  .social-icons {
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
+header svg.hamburger-icon.open {
+transform: rotate(90deg);
 }

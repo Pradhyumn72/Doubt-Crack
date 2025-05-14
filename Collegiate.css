@@ -345,130 +345,135 @@ nav{
     border-top: 1px solid rgba(255, 255, 255, 0.3);
   }
 
-  @media(max-width: 430px) {
+  @media screen and (max-width: 1023px) {
+    /* Header and Navigation adjustments */
+    header {
+      position: relative;
+    }
+    
     nav {
-      font-size: 14px;
-      padding: 8px 0;
+      padding: 10px 15px;
     }
-  
+    
     .nav-link {
-      flex-direction: column;
-      gap: 8px;
+      padding: 0 10px;
     }
-  
-    .nav-link img {
+    
+    .nav-link img.Logo {
       height: 60px;
       width: 60px;
     }
+  }
   
-    .hero h1 {
-      font-size: 28px;
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 767px) {
+    /* Header and Navigation */
+    header {
+      position: relative;
     }
-  
-    .description,
-    .courses,
-    .teachers-section {
-      padding: 0 10px;
+    
+    header svg.hamburger-icon {
+      display: block;
+      width: 32px;
+      height: 32px;
+      margin: 15px;
+      cursor: pointer;
     }
-  
-    .teacher-card {
-      width: 90%;
-      margin: 0 auto;
+    
+    nav {
+      padding: 0;
     }
-  
-    .teacher-card:nth-child(odd),
-    .teacher-card:nth-child(even) {
-      margin-left: 0;
-      margin-right: 0;
-      align-self: center;
+    
+    nav a {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
     }
+    
+    .nav-link {
+      position: fixed;
+      top: 0;
+      left: -100%; /* Hidden by default */
+      width: 70%;
+      height: 100vh;
+      background-color: #8BC34A;
+      flex-direction: column;
+      padding: 80px 0 20px;
+      transition: left 0.3s ease-in-out;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+    }
+    
+    .nav-link.active {
+      left: 0; /* Show when active */
+    }
+    
+    .nav-link li {
+      margin: 10px 0;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .nav-link img.Logo {
+      margin-bottom: 20px;
+    }
+    
+    /* Feedback bar adjustment */
+    .feedback-bar {
+      font-size: 14px;
+      padding: 8px 3px;
+    }
+  }
   
-    .footer {
-      padding: 20px 5%;
+  
+  
+  @media screen and (max-width: 480px) {
+     
+    .nav-link {
+      width: 85%; 
+    }
+    
+    .hero-content h1 {
+      font-size: 24px;
+    }
+    
+    .cta-btn {
+      padding: 10px 15px;
       font-size: 14px;
     }
-  
-    .footer-container {
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .social-icons {
-      flex-direction: row;
-      justify-content: center;
-      gap: 15px;
-    }
-  
-    .description-tutor1,
-    .description-tutor2,
-    .description-tutor3 {
-      position: static;
-      margin-top: 20px;
-      text-align: center;
-    }
   }
   
-
-  @media only screen and (min-width: 430px) and (max-width: 768px) {
-    nav {
-      font-size: 15px;
-      padding: 10px 0;
-    }
   
-    .nav-link {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-    }
-  
-    .nav-link img {
-      height: 70px;
-      width: 70px;
-    }
-  
-    .hero h1 {
-      font-size: 36px;
-    }
-  
-    .description,
-    .courses,
-    .teachers-section {
-      padding: 0 15px;
-    }
-  
-    .teacher-card {
-      width: 80%;
-    }
-  
-    .teacher-card:nth-child(odd),
-    .teacher-card:nth-child(even) {
-      margin-left: 0;
-      margin-right: 0;
-      align-self: center;
-    }
-  
-    .footer {
-      padding: 30px 8%;
-      font-size: 15px;
-    }
-  
-    .footer-container {
-      flex-direction: column;
-      gap: 25px;
-    }
-  
-    .social-icons {
-      flex-direction: row;
-      justify-content: center;
-      gap: 20px;
-    }
-  
-    .description-tutor1,
-    .description-tutor2,
-    .description-tutor3 {
-      position: static;
-      margin-top: 30px;
-      text-align: center;
-    }
+  .footer {
+    padding: 20px 10px;
   }
   
+  .footer-copyright {
+    font-size: 14px;
+  }
+  
+  
+  
+  
+  header svg.hamburger-icon {
+  transition: transform 0.3s ease-in-out;
+  }
+  
+  header svg.hamburger-icon.open {
+  transform: rotate(90deg);
+  }

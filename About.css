@@ -246,185 +246,135 @@ nav{
   }
 
 
-  @media screen and (width: 430px) {
+  @media screen and (max-width: 1023px) {
+    /* Header and Navigation adjustments */
+    header {
+      position: relative;
+    }
+    
     nav {
-      font-size: 14px;
-      padding: 6px 0;
+      padding: 10px 15px;
     }
-  
+    
     .nav-link {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
+      padding: 0 10px;
     }
-  
-    .nav-link img {
-      height: 50px;
-      width: 50px;
-    }
-  
-    .nav-link li {
-      margin: 5px 8px;
-    }
-  
-    .about-hero {
-      height: 55vh;
-    }
-  
-    .overlay h1 {
-      font-size: 28px;
-    }
-  
-    .overlay h3 {
-      font-size: 12px;
-    }
-  
-    .scroll-icon {
-      font-size: 22px;
-    }
-  
-    .about-info {
-      padding: 30px 16px;
-    }
-  
-    .about-info h2 {
-      font-size: 24px;
-    }
-  
-    .about-columns {
-      font-size: 15px;
-      gap: 18px;
-    }
-  
-    .how-it-works {
-      padding: 30px 16px;
-    }
-  
-    .how-it-works h2 {
-      font-size: 24px;
-    }
-  
-    .steps h3 {
-      font-size: 17px;
-    }
-  
-    .steps p {
-      font-size: 14px;
-    }
-  
-    .footer {
-      padding: 25px 8%;
-      font-size: 14px;
-    }
-  
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-  
-    .footer-section {
-      align-items: center;
-    }
-  
-    .footer-section h4,
-    .footer-section a {
-      text-align: center;
-    }
-  
-    .social-icons {
-      flex-direction: row;
-      justify-content: center;
-      gap: 14px;
-    }
-  }
-
-  @media screen and (min-width: 430px) and (max-width: 768px) {
-    nav {
-      font-size: 15px;
-      padding: 8px 0;
-    }
-  
-    .nav-link {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
-    }
-  
-    .nav-link img {
+    
+    .nav-link img.Logo {
       height: 60px;
       width: 60px;
     }
+  }
   
-    .nav-link li {
-      margin: 5px 10px;
+  .footer-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .footer-section {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 767px) {
+    /* Header and Navigation */
+    header {
+      position: relative;
     }
-  
-    .about-hero {
-      height: 60vh;
+    
+    header svg.hamburger-icon {
+      display: block;
+      width: 32px;
+      height: 32px;
+      margin: 15px;
+      cursor: pointer;
     }
-  
-    .overlay h1 {
-      font-size: 32px;
+    
+    nav {
+      padding: 0;
     }
-  
-    .overlay h3 {
-      font-size: 13px;
+    
+    nav a {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
     }
-  
-    .scroll-icon {
-      font-size: 24px;
-    }
-  
-    .about-info {
-      padding: 40px 20px;
-    }
-  
-    .about-info h2 {
-      font-size: 28px;
-    }
-  
-    .about-columns {
-      font-size: 16px;
-      gap: 20px;
-    }
-  
-    .how-it-works {
-      padding: 40px 20px;
-    }
-  
-    .how-it-works h2 {
-      font-size: 28px;
-    }
-  
-    .steps h3 {
-      font-size: 18px;
-    }
-  
-    .steps p {
-      font-size: 15px;
-    }
-  
-    .footer {
-      padding: 30px 8%;
-      font-size: 15px;
-    }
-  
-    .footer-container {
+    
+    .nav-link {
+      position: fixed;
+      top: 0;
+      left: -100%; /* Hidden by default */
+      width: 70%;
+      height: 100vh;
+      background-color: #8BC34A;
       flex-direction: column;
-      align-items: center;
-      gap: 25px;
+      padding: 80px 0 20px;
+      transition: left 0.3s ease-in-out;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+      z-index: 999;
     }
-  
-    .footer-section {
-      align-items: center;
+    
+    .nav-link.active {
+      left: 0; /* Show when active */
+    }
+    
+    .nav-link li {
+      margin: 10px 0;
+      width: 100%;
       text-align: center;
     }
-  
-    .social-icons {
-      flex-direction: row;
-      justify-content: center;
-      gap: 15px;
+    
+    .nav-link img.Logo {
+      margin-bottom: 20px;
+    }
+    
+    /* Feedback bar adjustment */
+    .feedback-bar {
+      font-size: 14px;
+      padding: 8px 3px;
     }
   }
   
+  
+  
+  @media screen and (max-width: 480px) {
+     
+    .nav-link {
+      width: 85%; 
+    }
+    
+    .hero-content h1 {
+      font-size: 24px;
+    }
+    
+    .cta-btn {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  }
+  
+  
+  .footer {
+    padding: 20px 10px;
+  }
+  
+  .footer-copyright {
+    font-size: 14px;
+  }
+  
+  
+  
+  
+  header svg.hamburger-icon {
+  transition: transform 0.3s ease-in-out;
+  }
+  
+  header svg.hamburger-icon.open {
+  transform: rotate(90deg);
+  }

@@ -9,20 +9,38 @@
       "id": "6c76"
     },
     {
-      "id": "de16",
-      "name": "dwerw",
+      "name": "hash",
       "age": "123",
-      "subject": "Physics",
-      "faculty": " Select the faculty",
-      "timeslot": "Select time slot"
+      "subject": "C++",
+      "faculty": "Mr.Vikas Sarkar(Rs.700/hour)",
+      "timeslot": "14:00 - 15:00",
+      "id": "0599"
     },
     {
-      "name": "2ee2",
-      "age": "123",
-      "subject": "Select your Subject",
-      "faculty": " Select the faculty",
-      "timeslot": "Select time slot",
-      "id": "0599"
+      "id": "199c",
+      "name": "sdscs",
+      "age": "122",
+      "subject": "Chemistry",
+      "faculty": "Mr.Dhiraj Sharma(Rs.500/hour)",
+      "timeslot": "14:00 - 15:00"
+    },
+    {
+      "id": "3a65",
+      "name": "hurray",
+      "age": "23",
+      "subject": "Dsa",
+      "faculty": "Mr.Vikas Yadav(Rs.600/hour)",
+      "timeslot": "15:00 - 16:00"
+    }
+  ],
+  "school": [
+    {
+      "id": "f23a",
+      "name": "ashly",
+      "age": "13",
+      "subject": "Chemistry",
+      "faculty": "Mr.Dhiraj Sharma(Rs.500/hour)",
+      "timeslot": "15:00 - 16:00"
     }
   ]
 }

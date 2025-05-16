@@ -276,8 +276,8 @@ nav{
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures proper spacing */
-    min-height: 250px; /* Adjust as needed */
+    justify-content: space-between; 
+    min-height: 250px; 
   }
   
   .footer-container {
@@ -320,19 +320,19 @@ nav{
     filter: brightness(0) invert(1);
   }
   
-  /* Fix for Copyright Alignment */
+  
   .footer-copyright {
     text-align: center;
-    margin-top: auto; /* Pushes it to the bottom */
+    margin-top: auto; 
     padding-top: 15px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
   }
 
 
 
-/* Media Query for Small Mobile Devices (max-width: 430px) */
+
 @media screen and (max-width: 430px) {
-    /* Header & Navigation */
+    
     header {
       position: relative;
     }
@@ -572,7 +572,7 @@ nav{
     }
   }
   
-  /* Media Query for Tablets (min-width: 431px and max-width: 768px) */
+  
   @media screen and (min-width: 431px) and (max-width: 768px) {
     /* Header & Navigation */
     header {
@@ -778,7 +778,7 @@ nav{
     }
   }
   
-  /* Additional styles for the hamburger menu functionality */
+  
   @media screen and (max-width: 768px) {
     header svg.hamburger-icon {
       transition: transform 0.3s ease-in-out;

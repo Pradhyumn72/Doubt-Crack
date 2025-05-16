@@ -98,14 +98,7 @@ let fetchData = async () => {
             <option value="Java">Java</option>
             <option value="React and SQL">React and SQL</option>
             <option value="Frontend(HTML,CSS,JS)">Frontend</option>
-            <option value="Chemistry">Chemistry</option>
-            <option value="Physics">Physics</option>
-            <option value="Mathematics">Mathematics</option>
-            <option value="Business Studies">Business Studies</option>
-            <option value="Modern History">Modern History</option>
-            <option value="Economics">Economics</option>
-            <option value="Accounts">Accounts</option>
-            
+           
         </select>
       
       Select the faculty: <select id="upfaculty"> <br /><br />
@@ -117,12 +110,7 @@ let fetchData = async () => {
             <option value="Mr.Rajesh(650/hour)">Mr.Rajesh</option>
             <option value="Mr.Siddharth Israni(Rs.700/hour)">Mr.Siddharth Israni</option>
              
-            <option value="Mr.Dhiraj Sharma(Rs.500/hour)">Mr. Dhiraj Sharma</option>
-            <option value="Mr.Hemant Patidar(Rs.500/hour)">Mr. Hemant Patidar</option>
-            <option value="Mr. Nitish Biswas(Rs.500/hour)">Mr. Nitish Biswas</option>
-            <option value="Mr. Alok Nath(Rs.450/hour)">Mr. Alok Nath</option>
-            <option value="Mr. Mahesh Rawat(Rs.400/hour)">Mr. Mahesh Rawat</option>
-            <option value="Mr. Vikas Iyer(Rs.400/hour)">Mr. Vikas Iyer</option>
+           
         </select>
      
       Select time slot : <select  id="uptimeslot"><br><br><br><br>

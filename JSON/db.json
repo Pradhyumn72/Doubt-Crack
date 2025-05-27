@@ -2,10 +2,10 @@
   "personal-details": [
     {
       "name": "yamal",
-      "age": "17",
-      "subject": "Dsa",
-      "faculty": "Mr.Vikas Yadav(Rs.600/hour)",
-      "timeslot": "13:00 - 14:00",
+      "age": "20",
+      "subject": "Django",
+      "faculty": "Mr.Neeraj Kumar(Rs.700/hour)",
+      "timeslot": "14:00 - 15:00",
       "id": "6c76"
     },
     {

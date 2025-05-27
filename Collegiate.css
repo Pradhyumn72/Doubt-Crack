@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 * {
     font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
@@ -232,7 +232,7 @@ nav{
     padding: 20px;
     width: 250px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    /* transition: transform 0.3s; */
+     transition: transform 0.3s; 
     position: relative;
   }
   
@@ -293,8 +293,8 @@ nav{
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures proper spacing */
-    min-height: 250px; /* Adjust as needed */
+    justify-content: space-between;  
+    min-height: 250px;  
   }
   
   .footer-container {
@@ -324,7 +324,7 @@ nav{
     text-decoration: underline;
   }
   
-  /* Social Icons Styling */
+   Social Icons Styling 
   .social-icons {
     display: flex;
     flex-direction: column;
@@ -337,16 +337,16 @@ nav{
     filter: brightness(0) invert(1);
   }
   
-  /* Fix for Copyright Alignment */
+   Fix for Copyright Alignment 
   .footer-copyright {
     text-align: center;
-    margin-top: auto; /* Pushes it to the bottom */
+    margin-top: auto;  
     padding-top: 15px;
     border-top: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   @media screen and (max-width: 1023px) {
-    /* Header and Navigation adjustments */
+     Header and Navigation adjustments 
     header {
       position: relative;
     }
@@ -377,103 +377,184 @@ nav{
   
   
   
-  
-  
-  @media screen and (max-width: 767px) {
-    /* Header and Navigation */
-    header {
-      position: relative;
-    }
-    
-    header svg.hamburger-icon {
-      display: block;
-      width: 32px;
-      height: 32px;
-      margin: 15px;
-      cursor: pointer;
-    }
-    
-    nav {
-      padding: 0;
-    }
-    
-    nav a {
-      display: block;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      z-index: 1000;
-    }
-    
+  @media screen and (max-width: 480px) {
     .nav-link {
-      position: fixed;
-      top: 0;
-      left: -100%; /* Hidden by default */
-      width: 70%;
-      height: 100vh;
-      background-color: #8BC34A;
-      flex-direction: column;
-      padding: 80px 0 20px;
-      transition: left 0.3s ease-in-out;
-      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
-      z-index: 999;
-    }
-    
-    .nav-link.active {
-      left: 0; /* Show when active */
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2px;
     }
     
     .nav-link li {
-      margin: 10px 0;
-      width: 100%;
-      text-align: center;
+        margin: 2px 5px;
+        font-size: 12px;
     }
     
-    .nav-link img.Logo {
-      margin-bottom: 20px;
+    .nav-link img {
+        height: 40px;
+        width: 40px;
     }
     
-    /* Feedback bar adjustment */
+    .hero {
+        padding: 60px 5px;
+    }
+    
+    .hero h1 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    
+    .description {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    
+    .description .prompt {
+        font-size: 16px;
+    }
+    
+    .level-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .level-buttons button {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 200px;
+    }
+    
+    .courses {
+        margin: 40px auto;
+        padding: 0 10px;
+    }
+    
+    .courses h2 {
+        font-size: 22px;
+    }
+    
+    .courses p {
+        font-size: 14px;
+    }
+    
+    .teacher-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 5px;
+    }
+    
+    .teacher-card {
+        max-width: 280px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    
+    .teacher-card img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .teacher-card h3 {
+        font-size: 16px;
+    }
+    
+    .teacher-card p {
+        font-size: 13px;
+    }
+    
+    .price {
+        font-size: 16px;
+    }
+    
+    .book-btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+    
+    .teachers-section {
+        padding: 30px 10px;
+    }
+    
+    .teachers-section h2 {
+        font-size: 24px;
+    }
+    
+    .footer {
+        padding: 20px 3%;
+        font-size: 14px;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-section h4 {
+        font-size: 16px;
+    }
+    
+    .social-icons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .footer-copyright {
+        font-size: 12px;
+    }
+    
     .feedback-bar {
-      font-size: 14px;
-      padding: 8px 3px;
+        font-size: 12px;
+        padding: 5px 2px;
+        top: 35%;
     }
-  }
-  
-  
-  
-  @media screen and (max-width: 480px) {
-     
-    .nav-link {
-      width: 85%; 
-    }
-    
-    .hero-content h1 {
-      font-size: 24px;
+}
+
+ 
+@media screen and (max-width: 320px) {
+    .nav-link li {
+        margin: 1px 3px;
+        font-size: 10px;
     }
     
-    .cta-btn {
-      padding: 10px 15px;
-      font-size: 14px;
+    .hero h1 {
+        font-size: 20px;
     }
-  }
+    
+    .teacher-card {
+        max-width: 260px;
+        padding: 10px;
+    }
+    
+    .teacher-card img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .teacher-card h3 {
+        font-size: 14px;
+    }
+    
+    .teacher-card p {
+        font-size: 12px;
+    }
+    
+    .teachers-section h2 {
+        font-size: 20px;
+    }
+    
+    .courses h2 {
+        font-size: 18px;
+    }
+}
+
+
   
-  
-  .footer {
-    padding: 20px 10px;
-  }
-  
-  .footer-copyright {
-    font-size: 14px;
-  }
-  
-  
-  
-  
-  header svg.hamburger-icon {
-  transition: transform 0.3s ease-in-out;
-  }
-  
-  header svg.hamburger-icon.open {
-  transform: rotate(90deg);
-  }
+   
+
+
+   

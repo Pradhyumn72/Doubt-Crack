@@ -31,6 +31,14 @@
       "subject": "Dsa",
       "faculty": "Mr.Vikas Yadav(Rs.600/hour)",
       "timeslot": "15:00 - 16:00"
+    },
+    {
+      "id": "2f17",
+      "name": "wilson",
+      "age": "29",
+      "subject": "C++",
+      "faculty": "Mr.Vikas Yadav(Rs.600/hour)",
+      "timeslot": "17:00 - 18:00"
     }
   ],
   "school": [

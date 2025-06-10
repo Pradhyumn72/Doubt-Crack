@@ -135,6 +135,7 @@ let fetchData = async () => {
     let subject =document.querySelector("#upsubject").value
     let faculty=document.querySelector("#upfaculty").value
     let timeslot=document.querySelector("#uptimeslot").value
+
     
   
     fetch(url, {

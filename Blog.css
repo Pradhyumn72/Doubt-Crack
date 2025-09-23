@@ -16,7 +16,7 @@ body{
 
 }
 nav{
-    background: #8BC34A;
+    background: #6C63FF;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -89,7 +89,7 @@ nav{
   z-index: 1000;
 }
 .blog-hero {
-    background: #273c75;
+    background: #3F3D56;
     display: flex;
     justify-content: center;
     color: white;
@@ -133,7 +133,7 @@ nav{
   .blog-card h2 {
     margin: 16px;
     font-size: 20px;
-    color: #273c75;
+    color: #3F3D56;
   }
   
   .blog-card p {
@@ -144,7 +144,7 @@ nav{
   .blog-card a {
     display: block;
     margin: 0 16px 16px;
-    color: #4CAF50;
+    color: #6C63FF;
     text-decoration: none;
     font-weight: bold;
   }
@@ -194,7 +194,7 @@ nav{
 }
 
 .footer {
-  background: #8BC34A;
+  background: #6C63FF;
   color:white;
   padding: 40px 10%;
   font-size: 16px;
@@ -318,7 +318,7 @@ nav{
     left: -100%; /* Hidden by default */
     width: 70%;
     height: 100vh;
-    background-color: #8BC34A;
+    background-color: #6C63FF;
     flex-direction: column;
     padding: 80px 0 20px;
     transition: left 0.3s ease-in-out;

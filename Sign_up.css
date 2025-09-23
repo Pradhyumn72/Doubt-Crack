@@ -16,7 +16,7 @@ body{
 
 }
 nav{
-    background: #8BC34A;
+    background: #6C63FF;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -92,5 +92,18 @@ nav{
 
 .form-container input{
     width: 35vh;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .form-container{
+      top: 20vh;
+      width: 90%;
+      border-width: 2px;
+      padding: 16px;
+  }
+  .form-container input{
+      width: 100%;
+  }
 }
 

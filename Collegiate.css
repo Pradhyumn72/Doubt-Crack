@@ -16,7 +16,7 @@ body{
 
 }
 nav{
-    background: #8BC34A;
+    background: #6C63FF;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -113,49 +113,18 @@ nav{
     padding: 0 20px;
     color: black;
   }
-  .description-tutor1{
-    color: black;
-    position: absolute;
-    left:40%;
-    top: 100% ;
-  }
-  .description-tutor2{
-    color: black;
-    position: absolute;
-    right: 35%;
-    top: 140%;
-  }
-  .description-tutor3{
-    color: black;
-    position: absolute;
-    left: 35%;
-    top: 185%;
-  }
-  
-  .description-tutor4{
-    color: black;
-    position: absolute;
-    right: 35%;
-    top: 225%;
-  }
-  .description-tutor5{
-    color: black;
-    position: absolute;
-    left: 35%;
-    top: 265%;
-  }
-  .description-tutor6{
-    color: black;
-    position: absolute;
-    right:35%;
-    top: 305%;
-    
-  }
+  .description-tutor1,
+  .description-tutor2,
+  .description-tutor3,
+  .description-tutor4,
+  .description-tutor5,
+  .description-tutor6,
   .description-tutor7{
-    color: black;
-    position: absolute;
-    left: 35%;
-    top: 345%;
+    color: #2b2b2b;
+    position: static;
+    margin: 0 auto 20px;
+    max-width: 800px;
+    text-align: left;
   }
   
   
@@ -222,34 +191,28 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: 30px;
     padding: 0 20px;
   }
   
-  .teacher-card {
+.teacher-card {
     background: #fff;
     border-radius: 12px;
     padding: 20px;
-    width: 250px;
+    width: 100%;
+    max-width: 960px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-     transition: transform 0.3s; 
     position: relative;
-  }
-  
-  .teacher-card:nth-child(odd) {
-    align-self: flex-start;
-    margin-left: 10%;
-  }
-  
-  .teacher-card:nth-child(even) {
-    align-self: flex-end;
-    margin-right: 10%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
   }
   
   
   .teacher-card img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
@@ -258,23 +221,27 @@ nav{
   .teacher-card h3 {
     margin: 10px 0 5px;
     font-size: 20px;
-    color: #273c75;
+    color: #3F3D56;
   }
   
   .teacher-card p {
     margin: 5px 0;
     color: #555;
   }
+
+  .teacher-details {
+    flex: 1;
+  }
   
   .price {
     font-weight: bold;
-    color: #e84118;
+    color: #FF6584;
   }
   
   .book-btn {
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #273c75;
+    background-color: #6C63FF;
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -283,11 +250,20 @@ nav{
   }
   
   .book-btn:hover {
-    background-color: #192a56;
+    background-color: #4f49d6;
   }
 
-  .footer {
-    background: #8BC34A;
+  /* Hide old standalone description blocks */
+  .description-tutor1,
+  .description-tutor2,
+  .description-tutor3,
+  .description-tutor4,
+  .description-tutor5,
+  .description-tutor6,
+  .description-tutor7 { display: none; }
+
+.footer {
+    background: #6C63FF;
     color:white;
     padding: 40px 10%;
     font-size: 16px;

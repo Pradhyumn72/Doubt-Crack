@@ -16,7 +16,7 @@ body{
 
 }
 nav{
-    background: #8BC34A;
+    background: #6C63FF;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -98,7 +98,7 @@ nav{
   }
   
   .overlay {
-    background-color: rgba(39, 60, 117, 0.7);
+    background-color: rgba(63, 61, 86, 0.75);
     color: white;
     text-align: center;
     width: 100%;
@@ -137,7 +137,7 @@ nav{
   .about-info h2 {
     font-size: 32px;
     margin-bottom: 30px;
-    color: #273c75;
+    color: #3F3D56;
   }
   
   .about-columns {
@@ -157,7 +157,7 @@ nav{
   
   .how-it-works h2 {
     font-size: 32px;
-    color: #273c75;
+    color: #3F3D56;
     margin-bottom: 40px;
   }
   
@@ -187,7 +187,7 @@ nav{
 
 
   .footer {
-    background: #8BC34A;
+    background: #6C63FF;
     color:white;
     padding: 40px 10%;
     font-size: 16px;
@@ -312,7 +312,7 @@ nav{
       left: -100%; /* Hidden by default */
       width: 70%;
       height: 100vh;
-      background-color: #8BC34A;
+      background-color: #6C63FF;
       flex-direction: column;
       padding: 80px 0 20px;
       transition: left 0.3s ease-in-out;

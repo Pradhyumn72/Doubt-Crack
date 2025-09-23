@@ -16,7 +16,7 @@ body{
 
 }
 nav{
-    background: #8BC34A;
+    background: #6C63FF;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -136,7 +136,7 @@ nav{
 }
 
 .contact-form button {
-    background-color: #ff4747;
+    background-color: #6C63FF;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -146,7 +146,7 @@ nav{
     transition: 0.3s;
 }
 .contact-form button:hover {
-    background-color: #339c5f;
+    background-color: #4f49d6;
 }
 .map-container {
     margin-top: 20px;
@@ -157,7 +157,7 @@ nav{
 
 /* Footer */
 .footer {
-    background: #8BC34A;
+    background: #6C63FF;
     color:white;
     padding: 40px 10%;
     font-size: 16px;
@@ -282,7 +282,7 @@ nav{
       left: -100%; /* Hidden by default */
       width: 70%;
       height: 100vh;
-      background-color: #8BC34A;
+      background-color: #6C63FF;
       flex-direction: column;
       padding: 80px 0 20px;
       transition: left 0.3s ease-in-out;

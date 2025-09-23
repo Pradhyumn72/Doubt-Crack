@@ -39,6 +39,14 @@
       "subject": "C++",
       "faculty": "Mr.Vikas Yadav(Rs.600/hour)",
       "timeslot": "17:00 - 18:00"
+    },
+    {
+      "id": "63be",
+      "name": "Prayers ",
+      "age": "22",
+      "subject": "Python",
+      "faculty": "Mr.Neeraj Kumar(Rs.700/hour)",
+      "timeslot": "19:00 - 20:00"
     }
   ],
   "school": [

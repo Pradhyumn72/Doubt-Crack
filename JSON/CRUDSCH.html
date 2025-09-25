@@ -11,28 +11,28 @@
 
 
     <form align="center" id="form-container">
-        Enter your name :<input type="text" name="" id="name"> <br>
-        Enter your age : <input type="number" name="" id="age"><br>
-        Select your Subject : <select  id="subject"> <br>
+        Enter your name :<input type="text" name="name" id="name"> <br>
+        Enter your age : <input type="number" name="age" id="age"><br>
+        Select your Subject : <select  id="subject" name="subject"> <br>
             <option value="Select your Subject">Select your Subject</option>
             <option value="Chemistry">Chemistry</option>
             <option value="Physics">Physics</option>
             <option value="Mathematics">Mathematics</option>
             <option value="Business Studies">Business Studies</option>
             <option value="Modern History">Modern History</option>
-            <option value="Economics">Economics</option>
+            <option value="English">English</option>
             <option value="Accounts">Accounts</option>
         </select>
-        Select the faculty: <select id="faculty"> <br>
+        Select the faculty: <select id="faculty" name="faculty"> <br>
             <option value=" Select the faculty"> Select the faculty</option>
-            <option value="Mr.Dhiraj Sharma(Rs.500/hour)">Mr. Dhiraj Sharma</option>
-            <option value="Mr.Hemant Patidar(Rs.500/hour)">Mr. Hemant Patidar</option>
-            <option value="Mr. Nitish Biswas(Rs.500/hour)">Mr. Nitish Biswas</option>
-            <option value="Mr. Alok Nath(Rs.450/hour)">Mr. Alok Nath</option>
-            <option value="Mr. Mahesh Rawat(Rs.400/hour)">Mr. Mahesh Rawat</option>
-            <option value="Mr. Vikas Iyer(Rs.400/hour)">Mr. Vikas Iyer</option>
+            <option value="Dr. Saurav Prasad(Rs.500/lecture)">Dr. Saurav Prasad</option>
+            <option value="Dr. Shweta Mukherjee(Rs.500/lecture)">Dr. Shweta Mukherjee</option>
+            <option value="Dr. Nitish Biswas(Rs.500/lecture)">Mr. Nitish Biswas</option>
+            <option value="Mr. Alok Nath(Rs.450/lecture)">Mr. Alok Nath</option>
+            <option value="Dr. Juhi Yasmeen(Rs.400/lecture)">"Dr. Juhi Yasmeen</option>
+            <option value="Mr. Vikas Iyer(Rs.400/lecture)">Mr. Vikas Iyer</option>
         </select>
-        Select time slot : <select  id="timeslot"><br>
+        Select time slot : <select  id="timeslot" name="time"><br>
             <option value="Select time slot">Select time slot</option>
             <option value="13:00 - 14:00">13:00 - 14:00</option>
             <option value="14:00 - 15:00">14:00 - 15:00</option>
@@ -42,7 +42,7 @@
             <option value="20:00 - 21:00">20:00 - 21:00</option>
 
         </select>
-        <input type="submit" name="Book Slot" onclick="return Book()">
+        <input type="submit" name="Book_Slot" onclick="return Book()">
 
     </form>
     <script src="CRUDSCH.js">

@@ -4,26 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Sign_up.css">
+    <link rel="stylesheet" href="./navbar.css">
     <title>Document</title>
 </head>
 <body>
-    <header>  
-        <nav>
-            <ul class="nav-link">
-                <li><img src="./Logo.png" alt="Logo" class="Logo"></li>
-
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./High_schooler.html">For High schooler</a></li>
-                <li><a href="./Collegiate.html">For Collegiate</a></li>
-                <li><a href="./Tutor.html">Meet the Instructors</a></li>
-                <li><a href="./Blog.html">Blogs</a></li>
-                <li><a href="./About.html">About</a></li>
-                <li><a href="./Contact_us.html">Contact us</a></li>
-                
-        </ul>
-        </nav>
-
-</header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Logo.png" alt="Doubt Crack Logo" />
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact_us.html">Contact</a></li>
+        <li><a href="Feedback.html">Feedback</a></li>
+        <li><a href="Login.html">Login</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
 <section class="form-section">
 
     <div class="form-detail">
@@ -51,5 +48,6 @@
 
 
 <script src="Sign_up.js"></script>
+<script src="./navbar.js"></script>
 </body>
 </html>

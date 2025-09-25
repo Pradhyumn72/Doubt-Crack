@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Collegiate.css">
+    <link rel="stylesheet" href="./navbar.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <title>High schooler</title>
 </head>
 <body>
-    <header>  
-        <nav>
-            <ul class="nav-link">
-              
-                <li><img src="./Logo.png" alt="Logo" class="Logo"></li>
-
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./High_schooler.html">For High schooler</a></li>
-                <li><a href="./Collegiate.html">For Collegiate</a></li>
-                
-                <li><a href="./Blog.html">Blogs</a></li>
-                <li><a href="./About.html">About</a></li>
-                <li><a href="./Contact_us.html">Contact us</a></li>
-                <li><a href="./indexx.html" >Logout</a></li>
-                
-        </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Logo.png" alt="Doubt Crack Logo" />
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="High_schooler.html">For High schooler</a></li>
+        <li><a href="Collegiate.html">For Collegiate</a></li>
+        <li><a href="Blog.html">Blogs</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact_us.html">Contact us</a></li>
+        <li><a href="indexx.html">Logout</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
     <a href="Feedback.html"><div class="feedback-bar">Feedback</div></a>
 
         <section class="hero">
@@ -73,7 +71,7 @@
                   <p>Chemistry</p>
                   <p>Dr. Saurav Prasad has a Ph.D. from the Indian Institute of Technology Delhi. Before joining VIT Bhopal as an assistant professor, he worked as a postdoctoral research associate for two years in Technische Universität Darmstadt, Germany, and eleven months in Centre de Biophysique Moléculaire, CNRS, Orleans, France. He is interested in the broad field of molecular simulations. His work revolves around the simulation of aqueous solutions, nanoparticle dispersions, and self-assembled monolayers</p>
                   <p class="price">₹500/lecture</p>
-                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Now</button></a>
+                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Session</button></a>
                 </div>
               </div>
              
@@ -85,7 +83,7 @@
                   <p>Physics</p>
                   <p>Dr Shweta Mukherjee is a Doctorate from the Department of Physics  and Electronics,Barkatullah University Bhopal, India. A Gold Medalist in her Post Graduation, Dr. Mukherjee has an experience of more than 17 years in teaching UG & PG classes. She  has publications in renowned International journals and is an author of a book published by Lap Lambert Publication, Germany. Her research interest includes Space weather, Ionospheric Physics, Solar physics and GPS and its applications.</p>
                   <p class="price">₹500/lecture</p>
-                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Now</button></a>
+                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Session</button></a>
                 </div>
               </div>
           
@@ -96,7 +94,7 @@
                   <p>Mathematics</p>
                   <p>Dr. Kiran Kumar Behera is a Doctorate in Mathematics from IIT Roorkee. He also completed his Masters in Applied Mathematics from IIT Roorkee. He has over four years of postdoctoral experience working in IISc Bangalore and NISER Bhubaneswar.His research interests include orthogonal functions and kernel methods in data analysis.</p>
                   <p class="price">₹500/lecture</p>
-                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Now</button></a>
+                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Session</button></a>
                 </div>
               </div>
           
@@ -107,7 +105,7 @@
                   <p>Business Studies</p>
                   <p>Mr. Alok Nath, M.Com. (Business Administration), has 15+ years of experience teaching for CBSE/ICSE/State boards and CUET; Senior Faculty at Commerce Achievers Academy.</p>
                   <p class="price">₹600/lecture</p>
-                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Now</button></a>
+                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Session</button></a>
                 </div>
               </div>
           
@@ -118,7 +116,7 @@
                   <p>Modern History</p>
                   <p>Mr. Mahesh Rawat focuses on Modern Indian History and has contributed to academic research; currently a faculty member at a Government College in MP.</p>
                   <p class="price">₹600/lecture</p>
-                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Now</button></a>
+                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Session</button></a>
                 </div>
               </div>
           
@@ -129,7 +127,7 @@
                   <p>English</p>
                   <p>Dr. Juhi Yasmeen is an accomplished Assistant Professor of English- Linguistics, at the Department of English, School of Advance Sciences & Languages, VIT Bhopal, India. Boasting more than five years of instructional experience in English Communication and English Language Teaching (ELT). Formerly associated with Jain University, Bangalore, Dr. Yasmeen has also garnered teaching expertise from this prestigious institution. Holding a Ph.D. in Applied Linguistics from Aligarh Muslim University, her unwavering dedication lies in unraveling the intricate threads of language</p>
                   <p class="price">₹600/lecture</p>
-                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Now</button></a>
+                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Session</button></a>
                 </div>
               </div>
 
@@ -140,7 +138,7 @@
                   <p>Accounts</p>
                   <p>Mr. Vikas Iyer has 14+ years of experience teaching Accounts for grades 11-12 and foundation courses like CA and CS, with a strong commerce background.</p>
                   <p class="price">₹600/lecture</p>
-                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Now</button></a>
+                  <a href="./JSON/CRUDSCH.html"><button class="book-btn">Book Session</button></a>
                 </div>
               </div>
           
@@ -208,6 +206,7 @@
             });
           </script>
           <script src="./Feedback.js"></script>
+          <script src="./navbar.js"></script>
 
 </body>
 </html>

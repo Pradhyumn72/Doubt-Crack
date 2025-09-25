@@ -88,13 +88,14 @@ nav{
   z-index: 1000;
 }
 
-.about-hero {
-    background: url('https://images.unsplash.com/photo-1580894732444-997f66851a22') no-repeat center center/cover;
+  .about-hero {
+    background: url('About.jpg') no-repeat center center/cover;
     height: 80vh;
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    padding-top: 0px;
   }
   
   .overlay {
@@ -187,7 +188,7 @@ nav{
 
 
   .footer {
-    background: #6C63FF;
+    background:black;
     color:white;
     padding: 40px 10%;
     font-size: 16px;
@@ -374,4 +375,18 @@ nav{
   
   header svg.hamburger-icon.open {
   transform: rotate(90deg);
+  }
+  
+  /* Override legacy nav rules for new shared navbar to remove extra gap */
+  .navbar {
+    position: static;
+  }
+  
+  .about-hero {
+    margin-top: 0;
+  }
+
+  /* Remove flow space from anchor wrapping fixed Feedback bar */
+  a[href="Feedback.html"] {
+    display: contents;
   }

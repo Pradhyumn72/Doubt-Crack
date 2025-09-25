@@ -4,7 +4,7 @@ let fetchData = async () => {
     let res = await fetch(url, { method: "GET" });
     let data = await res.json();
   
-    //data jo db.json pr h usko table format me front screen pr show krne k liye use array of object => map
+    // data at jb.json need to showed in table format used array of object => map
     let dataShow = document.querySelector("#datashow");
   
     // <td>${e.price}</td>
@@ -26,7 +26,7 @@ let fetchData = async () => {
   };
   
   
-  // person se price multiply hoga jo hamne price bhra h niche
+
   
   
   
@@ -34,7 +34,7 @@ let fetchData = async () => {
   let Del = async(id) => {
     // alert (id);
     let url = `http://localhost:3000/school/${id}`;
-    await fetch(url, { method: "DELETE" }); //url ko fetch kiye or DELETE method lgaya , or ye json se bhi data delete kr dega
+    await fetch(url, { method: "DELETE" }); //url fetched then DELETE method applied
     
   };
   
@@ -52,14 +52,14 @@ let fetchData = async () => {
   
     let url = "http://localhost:3000/school";
     fetch(url, {
-      method: "POST", //  postmethod me 3 chije bhejte h ===>>   method, header, string format me data
+      method: "POST", //  postmethod has 3 items to be sent  ===>>   method, header, string format data
   
       headers: {
         "Content-Type": "application/json",
       },
   
       body: JSON.stringify({
-        name: name, //NAME (jo json me key h uski jgh vo value aajaye jo ham fomr me dalenge jo ki name h jo value utha rha h )
+        name: name, //NAME (jo json me key h uski jgh vo value aajaye jo ham form me dalenge jo ki name h jo value utha rha h )
         age: age,
         subject: subject,
         faculty: faculty,
@@ -102,12 +102,12 @@ let fetchData = async () => {
       
       Select the faculty: <select id="up2faculty"> <br /><br />
             <option value=" Select the faculty"> Select the faculty</option>
-            <option value="Mr.Dhiraj Sharma(Rs.500/hour)">Mr. Dhiraj Sharma</option>
-            <option value="Mr.Hemant Patidar(Rs.500/hour)">Mr. Hemant Patidar</option>
-            <option value="Mr. Nitish Biswas(Rs.500/hour)">Mr. Nitish Biswas</option>
-            <option value="Mr. Alok Nath(Rs.450/hour)">Mr. Alok Nath</option>
-            <option value="Mr. Mahesh Rawat(Rs.400/hour)">Mr. Mahesh Rawat</option>
-            <option value="Mr. Vikas Iyer(Rs.400/hour)">Mr. Vikas Iyer</option>
+            <option value="Dr. Saurav Prasad(Rs.500/lecture)">Dr. Saurav Prasad</option>
+            <option value="Dr. Shweta Mukherjee(Rs.500/lecture)">Dr. Shweta Mukherjee</option>
+            <option value="Dr. Kiran Kumar Behera(Rs.500/lecture)">Dr. Kiran Kumar Behera</option>
+            <option value="Mr. Alok Nath(Rs.450/lecture)">Mr. Alok Nath</option>
+            <option value="Dr. Juhi Yasmeen(Rs.400/lecture)">Dr. Juhi Yasmeen</option>
+            <option value="Mr. Vikas Iyer(Rs.400/lecture)">Mr. Vikas Iyer</option>
         </select>
      
       Select time slot : <select  id="up2timeslot"><br><br><br><br>

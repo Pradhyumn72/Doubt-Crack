@@ -1,52 +1,12 @@
 {
   "personal-details": [
     {
-      "name": "yamal",
-      "age": "20",
-      "subject": "Django",
-      "faculty": "Mr.Neeraj Kumar(Rs.700/hour)",
-      "timeslot": "14:00 - 15:00",
-      "id": "6c76"
-    },
-    {
-      "name": "hash",
-      "age": "123",
-      "subject": "C++",
-      "faculty": "Mr.Vikas Sarkar(Rs.700/hour)",
-      "timeslot": "14:00 - 15:00",
-      "id": "0599"
-    },
-    {
-      "id": "199c",
-      "name": "sdscs",
-      "age": "122",
-      "subject": "Chemistry",
-      "faculty": "Mr.Dhiraj Sharma(Rs.500/hour)",
-      "timeslot": "14:00 - 15:00"
-    },
-    {
-      "id": "3a65",
-      "name": "hurray",
-      "age": "23",
-      "subject": "Dsa",
-      "faculty": "Mr.Vikas Yadav(Rs.600/hour)",
-      "timeslot": "15:00 - 16:00"
-    },
-    {
-      "id": "2f17",
-      "name": "wilson",
-      "age": "29",
-      "subject": "C++",
-      "faculty": "Mr.Vikas Yadav(Rs.600/hour)",
-      "timeslot": "17:00 - 18:00"
-    },
-    {
-      "id": "63be",
-      "name": "Prayers ",
-      "age": "22",
+      "name": "pradhyumn",
+      "age": "10",
       "subject": "Python",
-      "faculty": "Mr.Neeraj Kumar(Rs.700/hour)",
-      "timeslot": "19:00 - 20:00"
+      "faculty": "Mr.Alok(Rs.600/lecture)",
+      "timeslot": "14:00 - 15:00",
+      "id": "1943"
     }
   ],
   "school": [

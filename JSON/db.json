@@ -7,6 +7,14 @@
       "faculty": "Mr.Alok(Rs.600/lecture)",
       "timeslot": "14:00 - 15:00",
       "id": "1943"
+    },
+    {
+      "id": "6790",
+      "name": "ashwin",
+      "age": "20",
+      "subject": "Java",
+      "faculty": "Mr.Alok(Rs.600/hour)",
+      "timeslot": "19:00 - 20:00"
     }
   ],
   "school": [
@@ -17,6 +25,14 @@
       "faculty": "Mr.Dhiraj Sharma(Rs.500/hour)",
       "timeslot": "15:00 - 16:00",
       "id": "f23a"
+    },
+    {
+      "id": "c709",
+      "name": "rohit",
+      "age": "22",
+      "subject": "Modern History",
+      "faculty": "Mr. Alok Nath(Rs.450/lecture)",
+      "timeslot": "17:00 - 18:00"
     }
   ]
 }

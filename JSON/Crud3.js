@@ -103,12 +103,12 @@ let fetchData = async () => {
       
       Select the faculty: <select id="upfaculty"> <br /><br />
             <option value=" Select the faculty"> Select the faculty</option>
-            <option value="Dr. Harshlata Vishwakarma(Rs.700/lecture)">Dr. Harshlata Vishwakarma</option>
-            <option value="Dr. Praveen Lalwani(Rs.700/lecture)">Dr. Praveen Lalwani</option>
-            <option value="Dr. Sharmila Joseph(Rs.600/lecture)">Dr. Sharmila Joseph</option>
-            <option value="Mr.Alok(Rs.600/lecture)">Mr.Alok</option>
-            <option value="Mr.Rajesh(650/lecture)">Mr.Rajesh</option>
-            <option value="Mr.Siddharth Israni(Rs.700/lecture)">Mr.Siddharth Israni</option>
+            <option value="Dr. Harshlata Vishwakarma(Rs.700/hour)">Dr. Harshlata Vishwakarma</option>
+            <option value="Dr. Praveen Lalwani(Rs.700/hour)">Dr. Praveen Lalwani</option>
+            <option value="Dr. Sharmila Joseph(Rs.600/hour)">Dr. Sharmila Joseph</option>
+            <option value="Mr.Alok(Rs.600/hour)">Mr.Alok</option>
+            <option value="Mr.Rajesh(650/hour)">Mr.Rajesh</option>
+            <option value="Mr.Siddharth Israni(Rs.700/hour)">Mr.Siddharth Israni</option>
              
            
         </select>

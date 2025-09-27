@@ -1,5 +1,5 @@
 let fetchData = async () => {
-    let url = "http://localhost:3000/school";
+    let url = `http://127.0.0.1:8000/schoolViewSet/`;
   
     let res = await fetch(url, { method: "GET" });
     let data = await res.json();
@@ -33,7 +33,7 @@ let fetchData = async () => {
   //How to delete data by particular id ---->>>
   let Del = async(id) => {
     // alert (id);
-    let url = `http://localhost:3000/school/${id}`;
+    let url = `http://127.0.0.1:8000/schoolViewSet/${id}/`;
     await fetch(url, { method: "DELETE" }); //url fetched then DELETE method applied
     
   };
@@ -47,15 +47,19 @@ let fetchData = async () => {
     let subject = document.querySelector("#subject").value;
     let faculty=document.querySelector("#faculty").value;
     let timeslot = document.querySelector("#timeslot").value;
-   
+    console.log(name);
+    console.log(age);
+    console.log(subject);
+    console.log(faculty);
+    console.log(timeslot);
   
   
-    let url = "http://localhost:3000/school";
+    let url = "http://127.0.0.1:8000/schoolViewSet/";
     fetch(url, {
       method: "POST", //  postmethod has 3 items to be sent  ===>>   method, header, string format data
   
       headers: {
-        "Content-Type": "application/json",
+        "content-type": "application/json",
       },
   
       body: JSON.stringify({
@@ -64,11 +68,13 @@ let fetchData = async () => {
         subject: subject,
         faculty: faculty,
         timeslot: timeslot
+    
       }),
     });
-    
+   
   
-    location.href = "CRUDSCH2.html";
+  
+    // location.href = "CRUDSCH2.html";
     return false;
   };
 
@@ -76,7 +82,7 @@ let fetchData = async () => {
 
   //Put method
   let Formopen = async (id) => {
-    let url = `http://localhost:3000/school/${id}`;
+    let url = `http://127.0.0.1:8000/schoolViewSet/${id}/`;
   
     let res = await fetch(url, { method: "GET" });
     let data = await res.json();
@@ -102,12 +108,12 @@ let fetchData = async () => {
       
       Select the faculty: <select id="up2faculty"> <br /><br />
             <option value=" Select the faculty"> Select the faculty</option>
-            <option value="Dr. Saurav Prasad(Rs.500/lecture)">Dr. Saurav Prasad</option>
-            <option value="Dr. Shweta Mukherjee(Rs.500/lecture)">Dr. Shweta Mukherjee</option>
-            <option value="Dr. Kiran Kumar Behera(Rs.500/lecture)">Dr. Kiran Kumar Behera</option>
-            <option value="Mr. Alok Nath(Rs.450/lecture)">Mr. Alok Nath</option>
-            <option value="Dr. Juhi Yasmeen(Rs.400/lecture)">Dr. Juhi Yasmeen</option>
-            <option value="Mr. Vikas Iyer(Rs.400/lecture)">Mr. Vikas Iyer</option>
+            <option value="Dr. Saurav Prasad(Rs.500/hour)">Dr. Saurav Prasad</option>
+            <option value="Dr. Shweta Mukherjee(Rs.500/hour)">Dr. Shweta Mukherjee</option>
+            <option value="Dr. Kiran Kumar Behera(Rs.500/hour)">Dr. Kiran Kumar Behera</option>
+            <option value="Mr. Alok Nath(Rs.450/hour)">Mr. Alok Nath</option>
+            <option value="Dr. Juhi Yasmeen(Rs.400/hour)">Dr. Juhi Yasmeen</option>
+            <option value="Mr. Vikas Iyer(Rs.400/hour)">Mr. Vikas Iyer</option>
         </select>
      
       Select time slot : <select  id="up2timeslot"><br><br><br><br>
@@ -125,7 +131,7 @@ let fetchData = async () => {
   };
   
   let Updatte = (id) => {
-    let url = `http://localhost:3000/school/${id}`;
+    let url = `http://127.0.0.1:8000/schoolViewSet/${id}/`;
   
     let name = document.querySelector("#up2name").value;
     let age = document.querySelector("#up2age").value;

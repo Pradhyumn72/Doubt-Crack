@@ -104,7 +104,7 @@ let signup = () => {
         return false;
     }
 
-    if (sincpass !== sinpass) {
+    if (sincpass != sinpass) {
         errcpass.innerHTML = "Passwords do not match";
         return false;
     }

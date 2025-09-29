@@ -1,5 +1,5 @@
 let fetchData = async () => {
-    let url = "http://localhost:3000/personal-details";
+    let url = "http://127.0.0.1:8000/collegeViewSet/";
   
     let res = await fetch(url, { method: "GET" });
     let data = await res.json();
@@ -33,7 +33,7 @@ let fetchData = async () => {
   //How to delete data by particular id ---->>>
   let Del = async(id) => {
     // alert (id);
-    let url = `http://localhost:3000/personal-details/${id}`;
+    let url = `http://127.0.0.1:8000/collegeViewSet//${id}/`;
     await fetch(url, { method: "DELETE" }); //url ko fetch kiye or DELETE method lgaya , or ye json se bhi data delete kr dega
     
   };
@@ -50,7 +50,7 @@ let fetchData = async () => {
     
   
   
-    let url = "http://localhost:3000/personal-details";
+    let url = "http://127.0.0.1:8000/collegeViewSet/";
     fetch(url, {
       method: "POST", //  postmethod me 3 chije bhejte h ===>>   method, header, string format me data
   
@@ -78,7 +78,7 @@ let fetchData = async () => {
 
   //Put method
   let Formopen = async (id) => {
-    let url = `http://localhost:3000/personal-details/${id}`;
+    let url = `http://127.0.0.1:8000/collegeViewSet/${id}/`;
   
     let res = await fetch(url, { method: "GET" });
     let data = await res.json();
@@ -128,7 +128,7 @@ let fetchData = async () => {
   };
   
   let Updatte = (id) => {
-    let url = `http://localhost:3000/personal-details/${id}`;
+    let url = `http://127.0.0.1:8000/collegeViewSet/${id}/`;
   
     let name = document.querySelector("#upname").value;
     let age = document.querySelector("#upage").value;
